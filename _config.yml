@@ -1,0 +1,8 @@
+name: Anthony Val Camposano
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  
+gems:
+  - jekyll-gist
+highlighter: rouge

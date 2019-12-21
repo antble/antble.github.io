@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84135622-2"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-84135622-2');
+			</script>
+
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<meta name=“viewport” content=“width=device-width”/>
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+			<!-- Load jQuery -->
+			<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+			<!-- Load KaTeX -->
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+			<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+			
+			<!--<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />-->
+		</head>
+		<body>
+			<nav class="header">
+					<ul>
+					<span class="navbar">
+						<li><a href="/">Home</a> </li>
+						<li><a href="/blog">Blog</a> </li>
+						<li><a href="/bookreading">Notes</a></li>
+						<li><a href="/working">Working On</a></li>
+						<li><a href="/about">About</a></li>
+					</span>
+					</ul>
+				</nav>
+			
+			<br>
+			<br>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li> © <script type="text/javascript">document.write(new Date().getFullYear())</script>, designed and coded by <a href="https://github.com/sinbad989">sinbad989</a>.</li>
+				</ul>
+			</footer>
+		</body>
+	<script type="text/javascript" src="/js/katex_render.js"></script>
+	</html>
