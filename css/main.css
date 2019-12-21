@@ -87,6 +87,12 @@ p.post_title a{
     color:#069;
     font-weight: bold;
 }
+
+p.about {
+    font-size:25px;
+    color: #666;
+    font-weight: bold;
+}
 h2.post_title{
     font-size: 3em;
     color:#999;
