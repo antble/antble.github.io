@@ -88,10 +88,9 @@ p.post_title a{
     font-weight: bold;
 }
 
-p.about {
+p.about{
     font-size:25px;
     color: #666;
-    font-weight: bold;
 }
 h2.post_title{
     font-size: 3em;
@@ -127,7 +126,7 @@ p.excerpt{
     display: flex;
 }
 div.author p{
-    color:#00c3e6;
+    color:#000303;
 }
 
 .author{
