@@ -7,11 +7,13 @@ tag: computing
 ---
 
 *The Elements of computing* is one of the most comprehensive course I've taken online. The book used is *The Elements of Computing Systems: Building a Modern Computer from First Principles* which covers the fundamental elements of a computing system, starting from hardware to the operating system down to building one's programming language. 
-<br/>
-<br/>
-I've covered the first five chapters on hardware, starting from fundamental logic gates to the building of the central processing unit. It took seven days to cover the whole course as I work my ass around the chapters per day. Mostly doing the lecture videos in the morning and doing the project in the afternoon. 
-<br/>
-<br/>
+
+<br>
+<br>
+
+I've covered the first five chapters on hardware, starting from fundamental logic gates to the building of the central processing unit. It took seven days to cover the whole course as I work my ass around the chapters per day. Mostly doing the lecture videos in the morning and doing the project in the afternoon. This course, for me, provides additional point of view on why computer electronics and quantum transport is intimately linked to each other.  
+<br>
+<br>
 Here is my take away from that grueling seven days of computer hardware elements exposure: 
 
 ## Hardware: 

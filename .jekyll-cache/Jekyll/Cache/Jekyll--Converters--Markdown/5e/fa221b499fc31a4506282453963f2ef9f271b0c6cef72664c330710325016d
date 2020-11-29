@@ -1,8 +1,12 @@
-I"�<p><em>The Elements of computing</em> is one of the most comprehensive course I’ve taken online. The book used is <em>The Elements of Computing Systems: Building a Modern Computer from First Principles</em> which covers the fundamental elements of a computing system, starting from hardware to the operating system down to building one’s programming language. 
-<br />
-I’ve covered the first five chapters on hardware, starting from fundamental logic gates to the building of the central processing unit. It took seven days to cover the whole course as I work my ass around the chapters per day. Mostly doing the lecture videos in the morning and doing the project in the afternoon.</p>
+I"�<p><em>The Elements of computing</em> is one of the most comprehensive course I’ve taken online. The book used is <em>The Elements of Computing Systems: Building a Modern Computer from First Principles</em> which covers the fundamental elements of a computing system, starting from hardware to the operating system down to building one’s programming language.</p>
 
-<p>Here is my take away from that grueling seven days of computer hardware elements exposure:</p>
+<p><br />
+<br /></p>
+
+<p>I’ve covered the first five chapters on hardware, starting from fundamental logic gates to the building of the central processing unit. It took seven days to cover the whole course as I work my ass around the chapters per day. Mostly doing the lecture videos in the morning and doing the project in the afternoon. This course, for me, provides additional point of view on why computer electronics and quantum transport is intimately linked to each other.<br />
+<br />
+<br />
+Here is my take away from that grueling seven days of computer hardware elements exposure:</p>
 
 <h2 id="hardware">Hardware:</h2>
 
@@ -18,7 +22,7 @@ I’ve covered the first five chapters on hardware, starting from fundamental lo
 
 <p>And the amazing part of this addition and subtraction relationship is that the addition of binary representation applies to the binary addition of negative numbers in its corresponding binary representation (signed binary numbers).</p>
 
-<h3 id="day-3--4--memory-sequential-logic">Day 3 -4 : Memory (Sequential Logic)</h3>
+<h3 id="day-3---4--memory-sequential-logic">Day 3 - 4 : Memory (Sequential Logic)</h3>
 
 <p>All chips build in days 1 and 2 were combinatorial. Combinatorial chips compute functions that depend solely on combinations of their input values. On day 2, we focus on building the ALU unit for our computers. Today, we want to focus on building a memory - a RAM.</p>
 

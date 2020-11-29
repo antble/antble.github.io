@@ -73,7 +73,7 @@ A collection of education playlist for future reference. The list include physic
 - [Introduction to Quantum Field Theory - Hermann Nicolai](https://www.youtube.com/playlist?list=PLaNkJORnlhZk10778nVWkx5Fkq-NrDpvm) 
 - PI: [Quantum Field Theory II - Francois David](https://www.youtube.com/playlist?list=PLaNkJORnlhZnFm7Cmxh-gQnRc4lDjt_5z) 
 - [Quantum Field Theory I - Konstantin Zarembo](https://www.youtube.com/playlist?list=PLaNkJORnlhZkgdn3r4wvuUzne-FnyK0O9) 
-- 
+
 
 ## Standard Model
 
