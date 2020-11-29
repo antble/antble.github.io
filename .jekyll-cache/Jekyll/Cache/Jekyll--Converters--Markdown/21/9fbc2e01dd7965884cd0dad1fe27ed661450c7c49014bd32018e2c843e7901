@@ -1,0 +1,51 @@
+I"9<div style="text-align: justify;">
+The structure of any human knowledge are two parts — objects and functions. Any field can be simplified by thinking that it is an interplay between the objects of study and the functions involved with it. These framework of thinking is what I’ve been using to study many fields.
+</div>
+
+<p><strong>Objects</strong> — in approaching any knowledge know what is being talked about. What is the subject or the main focus of the story? Once you have that, you may attach some properties relative to that object. These properties provide details to characterize the object. Is it red? Is it invariant? Is it immutable? Is it acidic?</p>
+
+<p>Examples of objects from different field of study:</p>
+<ol>
+  <li>Cell in biology</li>
+  <li>Elements, molecules in chemistry</li>
+  <li>Mass, charges, strings in physics</li>
+  <li>Data type (number, string) in computer science</li>
+  <li>Characters (e.g. Tyrion, Cersei) in literature</li>
+</ol>
+
+<p><strong>Functions</strong> — (after knowing the different objects of the field and its properties). Its time to figure out the different functions involved with it. For instance, what it can do, what can you do on it, what its different methods are. Function in a sense that it input an object and vomit another object . In simple terms, what are the different transformation.</p>
+
+<p>Example of object’s function:</p>
+<ol>
+  <li>Cell division transforms a cell</li>
+  <li>Chemical reactions change molecules</li>
+  <li>Lorentz force translate or rotate charges</li>
+  <li>Squared function increases a number</li>
+</ol>
+
+<p>The interplay between objects and functions create the domain of knowledge. Mathematics is the interplay between mathematical objects and some mathematical transform. Physics is the interplay between experimental facts and some dynamical rules. Chemistry is the interplay between chemicals and possible chemical reactions. Computer science is an interplay between data types and functions or methods.</p>
+
+<p>The world is an interplay of its objects and functions. Once you get these two things into a coherent picture, you can study almost any field. This framework of thinking simplify the almost incomprehensible information of the world.</p>
+
+<p>To learn almost anything these are the steps:</p>
+<ol>
+  <li>Find a field you want to master</li>
+  <li>Find its different object of study and examine it’s different functions.</li>
+  <li>Create a picture of the dynamic interplay between the object and functions.</li>
+  <li>Finally, recreate the object in terms of the function, and the function in terms of the objects.</li>
+</ol>
+
+<hr />
+
+<p>I will be writing a series of articles of the application of these framework of thinking.</p>
+<ol>
+	<li>Fundamentals of Physics</li>
+	<li><a href="https://sinbad989.github.io/programming/2017/09/07/fundamentals-of-programming.html"> Fundamentals of Programming</a></li>
+	<li>Fundamentals of CSS</li>
+	<li>Fundamentals of Mathematics</li>
+	<li>Fundamentals of Complex Systems</li>
+	<li>Fundamentals of Geographic Information System</li>
+</ol>
+<p><br />
+<br /></p>
+:ET

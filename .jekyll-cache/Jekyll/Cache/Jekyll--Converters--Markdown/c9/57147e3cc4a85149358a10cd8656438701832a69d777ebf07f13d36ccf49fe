@@ -1,0 +1,110 @@
+I"�<p>Web scraping is the extraction or harvesting of data  from websites and storing it various format (e.g database, json, spreadsheet, text files).</p>
+
+<p><strong>Popular Python Web Scraping Libraries</strong></p>
+
+<ol>
+  <li><a href="http://docs.python-requests.org/en/latest/user/quickstart/#more-complicated-post-requests"><strong>requests</strong></a>: allow you to access web pages in its raw form</li>
+  <li><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/"><strong>BeautifulSoup</strong></a>: a parsing library using different parser (e.g. html,lxml,xml)</li>
+  <li><a href="https://lxml.de/"><strong>lxml</strong></a>: production-quality HTML and XML parsing library</li>
+  <li><a href="https://www.seleniumhq.org/"><strong>selenium</strong></a>: automate browsers control</li>
+  <li><a href="https://scrapy.org/"><strong>scrapy</strong></a>: a complete spider that can crawl through entire websites in a systematic way</li>
+  <li><a href="http://mechanicalsoup.readthedocs.io/en/stable/"><strong>mechanicalsoup</strong></a>: built around beautifulsoup, but if you need to check a few boxes or enter some text and you don’t want to build your own crawler for such task this one does such tasks</li>
+</ol>
+
+<p><strong>Others</strong>:</p>
+
+<ol>
+  <li><a href="https://pythonhosted.org/feedparser/"><strong>feedparser</strong></a>: helpful if you are working on an xml, atom feeds, or RSS.</li>
+  <li><a href="https://github.com/michaelhelmick/lassie"><strong>lassie</strong></a>: retrieve basic content like a description, title, keywords, or a list of images from a webpage</li>
+  <li><a href="https://github.com/jmcarp/robobrowser"><strong>robobrowser</strong></a>: browsing the web without a standalone web browser, can fetch a page, click on links and buttons, and fill out and submit forms</li>
+</ol>
+
+<p><strong>Popular data scraping tools</strong></p>
+
+<ol>
+  <li>octoparse</li>
+  <li>parsehub</li>
+  <li>contengrabber</li>
+  <li>mozenda</li>
+  <li>scrapinghub</li>
+  <li>webharvy</li>
+  <li>google chrome (scraper)</li>
+</ol>
+
+<h2 id="open-source-tools">Open-Source Tools</h2>
+
+<h3 id="1-requests">1. Requests</h3>
+
+<ul>
+  <li>Response content</li>
+  <li>Binary response content</li>
+  <li>JSON response content</li>
+  <li>Raw response content</li>
+</ul>
+
+<h3 id="2-beautifulsoup">2. BeautifulSoup</h3>
+
+<p>BeautifulSoup transforms a complex HTML document into a complex tree of python objects. You’ll deal only with four kinds of this objects.</p>
+
+<ol>
+  <li><strong>Tag</strong>: 
+it corresponds to an XML or HTML tag in the original document 
+Important topic to explore: 
+1.1 Navigating the tree
+1.2 Searching the tree</li>
+  <li><strong>NavigableString</strong>: 
+  A string corresponds to a bit of text within a tag. Beautiful Soup uses the NavigableString class to contain these bits of text:</li>
+  <li><strong>BeautifulSoup</strong>:
+  The BeautifulSoup object itself represents the document as a whole. For most purposes, you can treat it as a Tag object. This means it supports most of the methods described in Navigating the tree and Searching the tree.</li>
+  <li><strong>Comment</strong>:
+  Tag, NavigableString, and BeautifulSoup cover almost everything you’ll see in an HTML or XML file, but there are a few leftover bits. The only one you’ll probably ever need to worry about is the comment. The Comment object is just a special type of NavigableString.</li>
+</ol>
+
+<h3 id="3-lxml">3. lxml:</h3>
+<h3 id="4-selenium">4. selenium:</h3>
+<h3 id="5-scrapy">5. scrapy:</h3>
+<h3 id="6-mechanicalsoup">6. mechanicalsoup</h3>
+
+<h2 id="others">Others</h2>
+
+<h3 id="1-feedparser">1. feedparser:</h3>
+
+<ul>
+  <li>arxivsanity ()</li>
+</ul>
+
+<h3 id="2-lassie">2. lassie:</h3>
+<h3 id="3-robobrowser">3. robobrowser:</h3>
+
+<h2 id="applications">Applications</h2>
+
+<ul class="task-list">
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><em>Cryptocurrency price scraping</em>  <strong>(BeautifulSoup)</strong></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><em>Lotto winning numbers scraping</em> <strong>(BeautifulSoup)</strong></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><em>Map automation download</em> <strong>(BeautifulSoup)</strong></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><em>Website list scrapping</em> <strong>(BeautifulSoup)</strong></p>
+
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />medium list of top publishers</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />cryptocurrency capitalization list</li>
+    </ul>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><em>Filling google sign-up form</em> <strong>(selenium)</strong></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><em>Arxiv paper download</em> <strong>(feedparser)</strong></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><em>Tripadvisor Hotel Reviews</em> (Philippines Area) <strong>(scrapy)</strong></p>
+  </li>
+</ul>
+
+:ET

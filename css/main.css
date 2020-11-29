@@ -3,8 +3,8 @@
 }*/
 
 * {
-    /*font-family: 'Droid Serif', serif;*/
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Droid Serif', sans-serif;
+    /**font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;**/
 }
 
 :not(h1,h2,h3) {

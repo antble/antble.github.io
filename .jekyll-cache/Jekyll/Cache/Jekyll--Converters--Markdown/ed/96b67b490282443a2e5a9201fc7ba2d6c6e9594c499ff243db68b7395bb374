@@ -1,0 +1,82 @@
+I"<p>There are some jargons in probability that are worth knowing for they keep recurring in many fields of science.
+The idea of a function in relation to a probability is widespread used in complex systems, statistical mechanics, quantum mechanics, electromagnetism, and many more. So it is just logical to learn the jargons of probability so that next time it will not appear as wild beasts.</p>
+
+<h3 id="random-variable">Random Variable:</h3>
+<p>a variable that is subject to variations due to random chance. It is a result of a random experiment, a sampling. 
+Since the variable is random you expect to get different values as you obtain multiple samples.</p>
+
+<h3 id="distribution-function">Distribution Function:</h3>
+<p>a function over a general set of values, also called as cumulative distribution function (CDF), or it may be referred to as a probability mass function (PMF). A probability distribution is a function that describes how likely you will obtain the different possible values of the random variable.</p>
+
+<h3 id="probability-density-function">Probability Density Function:</h3>
+
+<p>Density of a continuous random variable, is a function whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a relative likelihood that the value of the random variable would equal that sample.</p>
+
+<p>PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value.</p>
+
+<ol>
+  <li>Continuous Distribution: <br />
+\(Pr[a \leq X \leq b] = \int_a^b f_{X}(x) dx\)<br /></li>
+</ol>
+
+<p>“What is the probability that X falls between a and b?”</p>
+
+<ol>
+  <li>Discrete Distribution:<br />
+\(f(t) = \sum p_i \delta (t - x_i)\)</li>
+</ol>
+
+<h3 id="entropy">Entropy:</h3>
+<p>The entropy of a random variable is a function which attempts to characterize the “unpredictability” of a random variable. Its not about the number of possible outcome, it is also about their frequency. Thought, it sounds like a vague concept, it has a precise mathematical definition.</p>
+
+<p>Take for example a random variable X with values \(X = \{x_1, x_2, ..., x_n\}\) and is defined by a probability distribution P(X), the entropy of the random variable is:</p>
+
+\[H(X) = -\sum P(x) \log P(x)\]
+
+<h3 id="conditional-entroppy">Conditional Entroppy</h3>
+<p>quantifies the amoutn of information needed to describe the outcome of a random variable Y given that the value of another random variable X is known.</p>
+
+<h3 id="joint-entropy">Joint Entropy:</h3>
+<p>The entropy of a joint probability distribution, or a multi-valued random variable. Joint entropy is a measure of the uncertainty associated with a set of variables.</p>
+
+<p>The join <em>Shannon entropy</em> of two discrete random variables X and Y is defined as</p>
+
+\[H(X,Y) = - \sum_{x} \sum_{y} P(x,y) \log_{2} [P(x,y)]\]
+
+<p>where x and y are particular values from X and Y and P(x,y) is the joint probability of these values occurring together.</p>
+
+<h3 id="mutual-information-mi">Mutual Information (MI):</h3>
+<p>MI of two random variables is <em>a measure of the mutual dependence between the two variables.</em> Specifically quantifying the information content obtained about one random variable, through the other random variable. Thus it is linked to that of entropy of a random variable.</p>
+
+<p>MI of two discrete random variables X and Y can be defined as:
+\(I(X;Y) = \sum_{y \in Y} \sum_{x \in X} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}\)</p>
+
+<p>MI of two continuous random variables X and Y can be defined as:
+\(I(X;Y) = \int_{Y} \int_{X} p(x,y) \log \frac{p(x,y)}{p(x)p(y)} dxdy\)</p>
+
+<p>Note that if X and Y are independent, \(p(x,y)=p(x)p(y)\) therefore:</p>
+
+\[\log \frac{p(x,y)}{p(x)p(y)} = \log(1) = 0\]
+
+<p>MI properties:<br />
+a. nonnegative: \(I(X;Y)\) <br />
+b. symmetric: \(I(X;Y)=I(Y;X)\))=</p>
+
+<p><strong>Relation to conditional and join entropy</strong></p>
+
+<p>\(1. I(X;Y) = H(X)-H(X\|Y)\)
+\(2. I(X;Y) = H(X,Y)-H(X\|Y)-H(Y\|X)\) 
+\(3. I(X;Y) = H(X)+H(Y)-H(X,Y)\)</p>
+
+<p>\(H(X),H(Y)\) = marginal entropies <br />
+\(H(X\|Y)\) = conditional entropies <br />
+\(H(X,Y)\) = joint entropies</p>
+
+<h4 id="references">References:</h4>
+<ol>
+  <li>https://en.wikipedia.org/wiki/Mutual_information</li>
+</ol>
+
+<p>Last Update: 14/04/2018</p>
+
+:ET

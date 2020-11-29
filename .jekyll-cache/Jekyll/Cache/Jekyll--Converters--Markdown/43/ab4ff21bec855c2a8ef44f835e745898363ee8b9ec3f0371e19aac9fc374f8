@@ -1,0 +1,25 @@
+I"�<p>Quantum mechanics are difficult to understand and difficult algebraically. There is a need for software to symbolically simulate quantum mechanical phenomena. To do this, meet Sympy, an open-source computer algebra system capable of modelling the abstraction of Dirac notation and the density operator. A quantum computer simulation has been built using this abstraction. In this post, we will explore some codes that are relevant to physics.</p>
+
+<p>In particular, we shall focus on the density operator of statistical quantum mechanics using sympy’s density matrices as guide.</p>
+
+<ul>
+  <li>we shall look at how Dirac notation was used to simulate the gate model of quantum computation</li>
+  <li>we shall include a discussion of the important physics concepts which come from the study of the density operator, including the discussion of the Von Neumann entropy and how it relates to the Louville Theorem</li>
+  <li>we shall look at how the reduced density matrix of a subsystem is calculated and use this knowledge to inform our understanding of quantum decoherence and the “entropy of entanglement” measure of entanglement</li>
+</ul>
+
+<h3 id="data-structures-in-sympy">Data Structures in SymPy</h3>
+<ul>
+  <li>sympy’s symbolic engine takes advantage of object orientation (inheritance in particular) to create an extensible code base</li>
+</ul>
+
+<h3 id="quantum-mechanics-in-sympy">Quantum Mechanics in Sympy</h3>
+<ul>
+  <li>Sympy has a base module which provides functionality for symbolic quantum mechanics in Dirac notation
+    <ul>
+      <li>the code has a notion of ket and bras states, operators which acts on these states, Hilbert spaces to which these states and operators belong, as well as inner and tensor products.</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

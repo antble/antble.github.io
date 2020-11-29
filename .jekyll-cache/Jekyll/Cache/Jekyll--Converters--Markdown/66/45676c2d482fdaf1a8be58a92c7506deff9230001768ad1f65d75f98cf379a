@@ -1,0 +1,16 @@
+I"�<p>I just completed my Coursera course in <b>Deep Learning Specialization!!</b></p>
+
+<p><strong>Courses offered:</strong></p>
+<ol>
+  <li><del>Neural Networks and Deep Learning</del></li>
+  <li><del>Improving Deep Neural Networks: Hyperparameter tuning, Regulization, and Optimization</del></li>
+  <li><del>Structuring Machine Learning Projects</del></li>
+  <li>Convolutional Neural Networks</li>
+  <li>Sequence Models</li>
+</ol>
+
+<p>These courses were very informative. One fundamental idea that one needs to remember is that neural networks are made up of a units of linear regression. And it was natural to start the course with the evaluation and examination of a linear regression. And from there scale it up to a single layer standard neural network, and scale it up more to invoke hidden layers. Deep neural network is just basically a neural network with more than two hidden layers.</p>
+
+<p>Each course offers an effective message: <strong>“Machine learning is a very empirical process!”</strong> This implies the importance of experimentation on different parameters and hyperparameters. Ng stressed the importance of regularization and use of a different optimization algorithm both in weight updates and weight initialization.</p>
+
+:ET

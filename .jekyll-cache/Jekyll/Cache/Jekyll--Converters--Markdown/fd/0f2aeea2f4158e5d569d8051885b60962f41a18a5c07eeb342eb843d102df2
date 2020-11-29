@@ -1,0 +1,41 @@
+I"I<p>Physics of Solids without Considering Microscopic Structure: The Early Days of Solid State</p>
+
+<p>Specific Heat of Solids: Boltzmann, Einstein, and Debye</p>
+
+<p>1819, many solid has heat capacity</p>
+
+<h3 id="what-is-solid-state-physics">What is Solid State Physics?</h3>
+<ul>
+  <li>study of solids armed with quantum theory</li>
+  <li>focused largely on (quasi)particles living inside solids
+    <ul>
+      <li>electron (or holes), phonons, photons</li>
+    </ul>
+  </li>
+  <li>part of condensed matter physics (this includes quantum fluids, soft biological matter, liquid crystals)</li>
+</ul>
+
+<p>\(C = 3 k_B\)<br /> \(C = 3R\)
+\(\begin{align} a &amp;= b c &amp;= d \end{align}\)</p>
+<h3 id="why-is-solid-state-physics-so-important">Why is Solid State Physics so important?</h3>
+<ul>
+  <li>fractional charges</li>
+  <li>attracting electrons</li>
+  <li>magnetic monopoles</li>
+  <li>flow without friction or resistance <em>(superconductivity or superfluidity)</em></li>
+  <li>separation of spin and charge</li>
+  <li>particles that are neither fermions nor bosons (anyons, non-abelian anyons)</li>
+</ul>
+
+<h3 id="what-we-are-going-to-learn">What we are going to learn</h3>
+<ul>
+  <li>why metals conduct</li>
+  <li>why some things are transparent and others not</li>
+  <li>why computers compute</li>
+  <li>why magnets stick to fridge doors</li>
+  <li>why energy bands bend at the Brillouin zone boundaries</li>
+</ul>
+
+<p>The crystal structures are very important to know the properties of the solid. 
+We can make an experiment that will reveal the crystal structure of our solid - x-ray diffraction.</p>
+:ET

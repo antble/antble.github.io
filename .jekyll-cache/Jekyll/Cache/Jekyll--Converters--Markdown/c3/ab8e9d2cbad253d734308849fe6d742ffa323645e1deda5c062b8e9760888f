@@ -1,0 +1,110 @@
+I"Q%<p>When I was young, I was curious with all the knowledge in this world that I would soak up hours and hours in our set of Webster dictionary. My mother able to acquire more books, including some copies of Guinness book of World Record, and I would return home early from school just to read and look at the peculiar pictures.</p>
+
+<p>As I age, I started to realize that one can create a general mental framework to simplify the learning process - here I will introduce a method to attain the goal of creating a mental structure that one should follow in order to learn almost anything from mathematics, economics, physics, chemistry, programming, and others.</p>
+
+<hr />
+
+<h3 id="table-of-contents">Table of Contents</h3>
+<ol>
+  <li><strong>Get an overview of the whole structure of the field you’re going to master</strong><br />
+a.	The importance of table of contents <br />
+b.	Create a story out of that structure <br /></li>
+  <li><strong>Get the objects and functions</strong> <br />
+a.	What are the objects <br />
+b.	What are the functions</li>
+  <li><strong>Familiarize the definitions and terminologies</strong> <br />
+a.	If possible memorize the definitions</li>
+  <li><strong>Master the Interrelation</strong> <br />
+a.	The functions and objects has an interrelation that makes up the whole structure</li>
+  <li><strong>Read More</strong> <br />
+a.	Read more books to create a more comprehensive point of view of the field</li>
+</ol>
+
+<hr />
+
+<h3 id="chapter-0-introduction-motivation-of-learning-almost-anything">Chapter 0. Introduction: Motivation of learning almost anything</h3>
+<p>There is a separation of skills between those that requires reading and those that requires experience alone. This book tries to tackle the former type of skills and create a simple workflow where one could follow as a mental structure to get into the world of information.</p>
+
+<blockquote>
+  <p>The thesis of this article is the idea that there is a fundamental element in all the knowledge in the world, just as there is a fundamental structure in mathematics and fundamental elements in matter. And by knowing these fundamentals you can recreate the knowledge bottom-up approach. And maybe, perhaps someday, find some gaps and missed oppurtunity that will led you to forge a new path.</p>
+</blockquote>
+
+<h3 id="chapter-1-get-an-overview-of-the-whole-structure-of-the-field-youre-going-to-master">Chapter 1: Get an overview of the whole structure of the field you’re going to master</h3>
+<p>1.1 Importance of table of contents</p>
+
+<p>This technique of trying to create an overview of what the contents of the book has already been covered in many books.</p>
+
+<p>1.2 Create a story out of that structure</p>
+
+<p>I think the best way to see the strength of a method is to see an example of its application. For this purposes, consider the book of Sean Carroll about <em>An Introduction to General Relativity</em> but first we will examine its table of content.</p>
+
+<p>The following table of content has a story to tell, something to guide you when the things start going tough. The book starts with <strong>special relativity and flat spacetime</strong>, then to <strong>manifolds</strong> and then to <strong>curvature</strong>. From here you’ll start wondering why start with special relativity and flat spacetime. You can also create a short burst of philosophical rambling about your limited knowledge of what a manifold is, or perhaps some wikipedia consultation will help you get a small glimpse of it.</p>
+
+<blockquote>
+  <p>a manifold is a topological space that locally resembles Euclidean space near each point.</p>
+</blockquote>
+
+<p>We are dealing with space, so curvature of spacetime  has something to do with gravity as well. Then the next chapter started talking about gravitation, only after covering some sections regarding the geometry of space. Afterwards, we start to meet some stranger’s name, <strong>Schwarzschild solution</strong> must be related to gravitation in some way but we do not know yet. Chapter 6 is now dealing with more general <strong>black holes</strong>, from which we may suspect that the previous solution has something to do with blackholes. Finally, we start to meet more jargons along the way such as <strong>perturbation theory</strong> and <strong>gravitational radiation</strong>, a familiar terminology <strong>cosmology</strong>, and then some hardcore <strong>quantum field theory in curved spacetime</strong> (woahhh).</p>
+
+<h3 id="chapter-2-get-the-objects-and-functions">Chapter 2: Get the objects and functions</h3>
+<p>Now that you know the structure of the book you aim to master, you need to know the players and relationships of the field. The players of a field is known as the objects of study, while the relationships of these objects are known as the functions.</p>
+
+<p>Astonishly, the structure of any human knowledge are two parts — objects and functions. Any field can be simplified by thinking that it is an interplay between objects of study and functions involved with it. These framework of thinking is what I’ve been using to study many fields.</p>
+
+<p><strong>Objects</strong> — in approaching any knowledge know what is being talked about. What is the subject or the main focus of the story? Once you have that, you may attach some properties relative to that object. These properties provide details to characterize the object. Is it red? Is it invariant? Is it immutable? Is it acidic?</p>
+
+<p>Examples of objects from different field of study:</p>
+<ol>
+  <li>Cell in biology</li>
+  <li>Elements, molecules in chemistry</li>
+  <li>Mass, charges, strings in physics</li>
+  <li>Data type (number, string) in computer science</li>
+  <li>Characters (e.g. Tyrion, Cersei) in literature</li>
+</ol>
+
+<p><strong>Functions</strong> — (after knowing the different objects of the field and its properties). Its time to figure out the different functions involved with it. For instance, what it can do, what can you do on it, what its different methods are. Function in a sense that it input an object and vomit another object . In simple terms, what are the different transformation.</p>
+
+<p>Example of object’s function:</p>
+<ol>
+  <li>Cell division transforms a cell</li>
+  <li>Chemical reactions change molecules</li>
+  <li>Lorentz force translate or rotate charges</li>
+  <li>Squared function increases a number</li>
+</ol>
+
+<p>The interplay between objects and functions create the domain of knowledge. Mathematics is the interplay between mathematical objects and some mathematical transform. Physics is the interplay between experimental facts and some dynamical rules. Chemistry is the interplay between chemicals and possible chemical reactions. Computer science is an interplay between data types and functions or methods.</p>
+
+<p>The world is an interplay of its objects and functions. Once you get these two things into a coherent picture, you can study almost any field. This framework of thinking simplify the almost incomprehensible information of the world.</p>
+
+<h3 id="chapter-3-familiarize-the-definitions-and-terminologies">Chapter 3: Familiarize the definitions and terminologies</h3>
+
+<p>In mathematics, definitions is its lifeblood. Each domain of knowledge has his own set of definitions and terminilogies to simplify the communication of knowledge. Familiarizing yourself with this in the start of your learning process will help you in the succeeding chapters to come.</p>
+
+<p><strong>Philosopher vs Mathematician</strong></p>
+
+<p>If one asks questions, one should make sure that the definitions of the terms in the questions are properly understood.</p>
+
+<p><strong>Philosopher: What is the purpose of my existence?</strong></p>
+
+<ul>
+  <li>I have no idea; neither of the nouns in this question can be defined with any precision. We have to ask. What is purpose to you? How do you quantify that purpose? What is existence? What are the conditions for you to exist?</li>
+</ul>
+
+<p><strong>Mathematician: Is the square root of 2 a rational number?</strong></p>
+
+<ul>
+  <li>Absolutely not! We can answer this kind of question with precision because we know precisely what is meant by the phrases “square root of 2” and “rational number”</li>
+</ul>
+
+<p>When it comes to proving our assertions, claims, and arguments it is easier if we have agreed upon on the “right” definitions.</p>
+
+<h3 id="chapter-4-master-the-interrelation">Chapter 4: Master the Interrelation</h3>
+
+<p>At this stage, you should have covered a few chapters of the book you are trying to master. Now that you have added details into your knowledge for each chapter you can somehow now create an interconnection between each chapters.</p>
+
+<p>You should have now developed a detailed story of the interrelationship of each chapter. For instance, of how the flat-spacetime and special relativity was a prerequisite knowledge before you go the field of manifolds. Or perhaps, how manifold was introduced first to give you a background on the field of curvature.</p>
+
+<h3 id="chapter-5-read-more---consult-others">Chapter 5: Read More - Consult Others</h3>
+
+<p>If you’ve finished the whole book itself, you should now be able to create a single paragraph summary of the whole story of the book. From its prerequisite details down to the main concepts of each chapters. Now, your next target is to have another point of view of the field your mastering; that is, you need to get a new book from a different author to get their perspective of the field.</p>
+:ET

@@ -1,0 +1,60 @@
+I"+<p>I’m currently exploring the Kwant python package because my thesis is inline with quantum transport. Kwant is a python package for numerical quantum transport calculations. The thing I like about Kwant, aside from being in python, is that it has been designed such that natural concepts of the theory of quantum theory are exposed in a simple and transparent way. Kwant offers direct support for calculations of transport properties, dispersion relations, modes, wave functions, variours Green’s functions, and out-of-equilibrium local quantities.</p>
+
+<h3 id="1-introduction">1. Introduction</h3>
+<p><strong>Scattering</strong></p>
+<ul>
+  <li>solving scattering problem is a common taks in condensed matter physics
+    <ul>
+      <li>one considers the scattering of particles in a finite system coupled to infinite <strong>leads</strong></li>
+      <li>solutions yields the conductance and various other transport properties</li>
+    </ul>
+  </li>
+  <li>can also be used to calculate complicated physical phenomena.
+    <ul>
+      <li>supercurrent</li>
+      <li>non-equilibrium density of states at a high voltage bias</li>
+      <li>evaluation of the topological properties of a topological insulator</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Numerical simulation of the scattering problem</strong></p>
+<ul>
+  <li>most popular is the <strong>recursive Green’s function algorithm</strong> (RGF)</li>
+  <li><strong>Kwant</strong> is develop to solve efficiently at comparatively little effort the scattering problem for arbitrary single-particle tight-binding Hamiltonians.</li>
+</ul>
+
+<p><strong>Kwant</strong></p>
+<ul>
+  <li>solve the scattering problem in a robust and highly efficient way</li>
+  <li>support an easy and expressive way to define a broad range of tight-binding systems as required for exploratory research.</li>
+  <li>uses highly efficient and robust algorithms resulting to:
+    <ul>
+      <li>it outperform the RGF</li>
+      <li>it avoid usual instabilities occurring with many commonly used algorithms</li>
+    </ul>
+  </li>
+  <li>Expressiveness of kwant is important for mesoscopic physics
+    <ul>
+      <li>one writes down a Hamiltonian that is very close to what one would write on a blackboard</li>
+      <li>Definition of a physical system amount to writing a simple Python program that operates with physical concepts such as lattices, shapes, symmetries, and potentials.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Examples of a device that was simulated</strong></p>
+<ul>
+  <li>cylindrical semiconductor wire with <em>spin-orbit interaction</em>, partially covered by a superconductor, used to create Majorana fermions.</li>
+</ul>
+
+<h3 id="2-concepts-of-quantum-transport">2. Concepts of Quantum Transport</h3>
+<p>(kwant is suited for both infinite and finite systems with finite scattering region to which a few semi-finite periodic electrodes are connected.)</p>
+
+<p>The Hamiltonian for systems in Kwant are defined as:
+\(\hat{H}=\sum_{ij} H_{ij}c^\dagger_{i}c_{j}\)</p>
+
+<p>where \(c^\dagger_{i}c_{j}\) are the usual fermionic creation(and destruction) operatos, i and j label the different degrees of freedom of the system, and \(H_{ij}\) are the elements of an infinite Hermitian matrix</p>
+
+<h3 id="3-scattering-theory">3. Scattering Theory</h3>
+<h3 id="4-defining-tight-binding-systems">4. Defining tight-binding systems</h3>
+:ET

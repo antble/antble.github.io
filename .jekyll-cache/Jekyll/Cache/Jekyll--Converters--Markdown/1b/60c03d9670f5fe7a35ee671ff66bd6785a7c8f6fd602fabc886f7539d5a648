@@ -1,0 +1,193 @@
+I"�<div style="text-align: justify;">
+Lately, the idea of cryptocurrency and blockchain as a disruptive technology has caught on, somehow overshadowing the fame of 'deep learning'. The fame of bitcoin has catapulted the science of cryptography to the public.  I've read the work of Satoshi Nakamoto, <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin: A Peer-to-Peer Electronic Cash System</a>, but I don't get it. Last month, I decided to invest time to get an idea of how cryptocurrency works. This article is my personal notes about cryptocurrency I've learned from the course, <a href="https://www.coursera.org/learn/cryptocurrency">Bitcoin and Cryptocurrency Technologies of Princeton University</a>. 
+</div>
+
+<p><strong>A. Bitcoin: A Peer-to-Peer Electronic Cash System</strong></p>
+
+<p>Concepts of Cryptocurrecy:</p>
+<ol>
+  <li>transactions</li>
+  <li>timestamp server</li>
+  <li>proof-of-work</li>
+  <li>network</li>
+  <li>Incentive</li>
+  <li>Reclaiming Disk Space</li>
+  <li>Simplified Payment Verification</li>
+</ol>
+
+<p><br /><br />
+<strong>B. Bitcoin and Cryptocurrency Technologies</strong></p>
+
+<p>Basic Ideas to be familiar: (high level)</p>
+<ol>
+  <li>
+    <p>hash function
+first cryptographic primitive</p>
+  </li>
+  <li>
+    <p>hash pointers and data structure</p>
+  </li>
+</ol>
+
+<ul>
+  <li>pointer to where some info is stored,</li>
+  <li>we can use it to retrieve the info, and verify that it wasn’t tampered or changed.
+build data structure using a hash pointer</li>
+</ul>
+
+<p>use-case:tamper-evident log build from a block chain</p>
+
+<p>binary tree with hash pointers: a “Merkle tree”
+advantage: 
+holds many items but to remember we just need the root hash, 
+can be verified in 0(log n) time/space</p>
+
+<p>can use hash pointers in any pointer-based data structure that has no cycles</p>
+
+<ol>
+  <li>digital signatures<br />
+second cryptographic primitive
+2 things we need from signature</li>
+</ol>
+
+<p>a. unique
+b. tied to a particular document, can be cut and paste</p>
+
+<p>API for digital signatures:
+(a signature scheme)
+(sk, pk) := generateKeys(keysize)
+sig := sign(sk, message)
+isValid := verify(pk, message, sig)</p>
+
+<p>practical stuff:
+a. randomized the algo. : a good source of randomness is required
+	bitcoin uses ECDSA standard:
+	Elliptic Curve Digital Signature Algo. - a hairy math !!</p>
+
+<p>b. limit the message size, use Hash(message) rather than the message
+c. attached a signature to teh hash pointer, this will cover the whole data structure</p>
+
+<ol>
+  <li>public key as Identities
+useful trick: public key == an identity
+to “speak on behalf of the pk” you need a secret key, sk.</li>
+</ol>
+
+<ul>
+  <li>pk is the public “name” you can use</li>
+  <li>sk lets you “speak for” the identity</li>
+</ul>
+
+<p>you control the identity if you have the sk.</p>
+
+<p>decentralized identity management:</p>
+<ul>
+  <li>there is no limit in identity creation, anytime.</li>
+  <li>there is no point of control on the identity creation, in cryptocurrency it is an address</li>
+</ul>
+
+<p>Privacy: 
+addresses are not directly to your real-world identity
+but observer can make inferences through observations based on your activities</p>
+
+<p>Simple Cryptocurrency: 
+ – to give us ideas how bitcoin works</p>
+
+<p>ex: GoofyCoin</p>
+<ul>
+  <li>goofy can create new coins</li>
+  <li>
+    <p>new coins belong to goofy
+  signed by pk_goofy
+  CreateCoin(uniqueCoinID)</p>
+  </li>
+  <li>it can be passed to other user
+  signed by pk_goofy
+  pay to pk_alice: H(pointer to goofy coins)</li>
+</ul>
+
+<p>– the recipient can pass on the coin to other</p>
+
+<p>** double-spending attack if not solved, it is not secure
+ – the main challenge in designing cryptocurrency</p>
+
+<p>the main design challenge in digital currency is to solve double-spending attack</p>
+
+<p>scrooge published a history of all transactions: a block chain, signed by scrooge
+optimization: put multiple transactions in the same block</p>
+
+<p>two kinds of transaction</p>
+<ol>
+  <li>CreateCoin transaction creates new coins</li>
+  <li>PayCoins transaction consumes (and destroy) some coins and creates new coins of the same total value</li>
+</ol>
+
+<ul>
+  <li>coins are immutable, cant be transferred, subdivided, or combined.<br />
+we can get the same effect by using transactions to subdivide:</li>
+</ul>
+
+<p>crucial question: can we get rid of a central authority?</p>
+
+<p>how everyone can agree upon a transaction history? How can we decentralized it?</p>
+
+<p>Mechanics of Bitcoin: (less technical, low level)
+Bitcoin consensus:</p>
+<ul>
+  <li>append-only ledger</li>
+  <li>decentralized consensus</li>
+  <li>miners to validate transactions</li>
+</ul>
+
+<p>Fundamental Building block: transaction</p>
+
+<p>A simplified transaction: only one transaction per block
+ create 25 coins -&gt; credit to Alice</p>
+
+<p>Alice (25 coins) (17)-&gt; Bob (0 coins)
+ Bob (17 coins) (8)-&gt; Charlie (0 coins)
+ Charlei (8 coins) -&gt; Alice (8 + 5)</p>
+
+<ul>
+  <li>transfer 15 coins from Alice to David (is this valid)</li>
+</ul>
+
+<p>each transaction has a unique identifier</p>
+
+<p>finite scan to check for validity - we implement this with hash pointers</p>
+<ul>
+  <li>joint payments (requires two signature)</li>
+  <li>merging values</li>
+</ul>
+
+<p><strong>bitcoin script</strong>
+  each transaction output does not only specify a simple public key, it also specify a script.
+  what is bitcoin scripting language is?
+   – output “addresses” are really scripts</p>
+
+<p>bitcoin scripting language: (not a turing complete language, so no halting problem)</p>
+<ol>
+  <li>built for bitcoin</li>
+  <li>simple, compact</li>
+  <li>support for cryptography</li>
+  <li>stack-based</li>
+  <li>limits on time/memory</li>
+  <li>No looping (no loop functions)</li>
+</ol>
+
+<p>-256 opcodes (15 disabled, 75 reserved)</p>
+<ul>
+  <li>arithmetic</li>
+  <li>if/then</li>
+  <li>crypto functions</li>
+</ul>
+
+<p>proof-of-burn : nothing’s going to redeem that
+“pay to script hash”
+<br />
+<br /></p>
+
+<p><strong>To be continued ..</strong></p>
+
+<p>Last Update: 17/11/2017</p>
+:ET

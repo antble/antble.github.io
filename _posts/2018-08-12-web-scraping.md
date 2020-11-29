@@ -2,7 +2,7 @@
 layout: post
 title: "Web Scraping Notes"
 date: 2018-08-12
-category: physics 
+category: programming
 tag: web scraping, data science
 ---
 Web scraping is the extraction or harvesting of data  from websites and storing it various format (e.g database, json, spreadsheet, text files).
