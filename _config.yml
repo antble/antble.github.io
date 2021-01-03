@@ -5,4 +5,10 @@ kramdown:
   
 gems:
   - jekyll-gist
+
+plugins:
+  - jemoji
+
 highlighter: rouge
+
+
