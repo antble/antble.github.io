@@ -255,6 +255,6 @@ main div > ol{
     padding: 0px 2px 10px 3px;
 }
 
-@media only screen and (max-width:480){
-    main{width:100%};
+a.physics,a.math,a.programming,a.gis {
+    color: blue;
 }

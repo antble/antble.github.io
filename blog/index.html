@@ -6,26 +6,37 @@ title: Blog
 	
 <div class="category">
 <h2>
-	<a href="/blog">all posts</a> |
-	<a href="/physics">physics</a> | 
+	<!-- <a href="/blog">all posts</a> | --> |
+	<a href="/physics">  physics</a> | 
 	<a href="/programming">programming</a> | 
 	<a href="/math">mathematics</a> |
 	<a href="/gis">gis</a> |
 </h2> 
 </div>
 
+<p><i>Category: Physics </i></p>
 <br>
-<div class="post_content">
-	{% for post in site.posts %}
-	<p class="post_header">{{post.date |date_to_string}}  | <span class="tag">{{post.tag}} </span></p>
-	<p class="post_title"><a href="{{post.url}}">{{post.title}}</a></p>
-	{{ post.excerpt | remove:'<p>' | remove:'</p>'}} 
-	<br><br><br>
-	{% endfor%}
-</div>
-<br>
-<br>
-<br>
+
+<ul>
+  {% for post in site.categories.physics %}
+    {% if post.url %}
+        <li><h4><sup>({{post.date| date_to_string}})</sup> <a href="{{ post.url }}">{{ post.title }}</a>  </h4></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<!-- <br> -->
+<!-- <div class="post_content"> -->
+<!-- 	{% for post in site.posts %} -->
+<!-- 	<p class="post_header">{{post.date |date_to_string}}  | <span class="tag">{{post.tag}} </span></p> -->
+<!-- 	<p class="post_title"><a href="{{post.url}}">{{post.title}}</a></p> -->
+<!-- 	{{ post.excerpt | remove:'<p>' | remove:'</p>'}} --> 
+<!-- 	<br><br><br> -->
+<!-- 	{% endfor%} -->
+<!-- </div> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
 
 
 </body>

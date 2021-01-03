@@ -1,4 +1,4 @@
 title,Topic,URL
-Custom 404 page,404 topic,https://jekyllrb.com/tutorials/custom-404-page/
-Liquid for Designers,liquid ,https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-Data Files,data files,https://jekyllrb.com/docs/datafiles/
+Web Development,404 topic,webdev
+Theoretical Computer Science,liquid ,cstheory
+Algorithm,data files,algorithm
