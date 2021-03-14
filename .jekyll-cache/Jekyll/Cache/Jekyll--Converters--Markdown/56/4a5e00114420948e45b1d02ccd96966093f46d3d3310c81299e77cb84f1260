@@ -1,0 +1,40 @@
+I".<h3 id="notes">Notes</h3>
+<p>(1) Some random notes:</p>
+<ul>
+  <li>real analyis is a sufficient background to get started, and topology is a natural next step</li>
+  <li>without at least an intermediate knowledge in set theory, it can be hard to delve into more interesting stuff in point-set Topology</li>
+  <li>“irreducible core” of the subject: topological spaces, connectedness, compactness, and the countability and separation axioms</li>
+  <li>what is the point of generalization?</li>
+  <li>Course outline Part 1:
+    <ul>
+      <li>set theory and logic,</li>
+      <li>topological spaces and continouos function,</li>
+      <li>connectedness and compactness,</li>
+      <li>countability</li>
+      <li>separation axioms</li>
+    </ul>
+  </li>
+</ul>
+
+<p>(2) Topology without tears</p>
+<ul>
+  <li>topological notions like compactness, connectedness and denseess are as basic to mathematician of today as sets and functions were to those of last century.</li>
+  <li>branches of topology:
+    <ul>
+      <li>general topology (point-set topology)</li>
+      <li>algebraic topology</li>
+      <li>differential topology</li>
+      <li>topological algebra</li>
+    </ul>
+  </li>
+  <li>Point-set topology is the door to the study of others</li>
+  <li>in mathematics “or” is not exclusive, a or b (a and b being true at the same time)</li>
+  <li>only by working through a good number of exercises will you master this course</li>
+</ul>
+
+<p><strong>Chapter 1 - topological spaces</strong></p>
+<ul>
+  <li>we begin with the rules of topology</li>
+  <li>definitions of</li>
+</ul>
+:ET

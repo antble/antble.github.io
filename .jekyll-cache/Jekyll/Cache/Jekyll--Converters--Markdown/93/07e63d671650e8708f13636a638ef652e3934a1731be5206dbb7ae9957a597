@@ -1,0 +1,127 @@
+I"/<h1>
+    Abstract algebra 
+</h1>
+
+<hr />
+
+<h2>Useful Online references:</h2>
+
+<div class="section group0">
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</div>
+
+<hr />
+
+<h2>Books</h2>
+
+<div class="section group1">
+    
+    
+
+     
+        
+       
+     
+        
+       
+     
+        
+       
+     
+        
+       
+     
+        
+       
+     
+        
+       
+     
+        
+       
+     
+        
+       
+    
+</div>
+<hr />
+
+<p><br />
+<br />
+<br /></p>
+
+<h2 id="notes">Notes</h2>
+<p>(1) Effective way to learn abstract algebra</p>
+<ul>
+  <li>For each concept have an example that you understand well (“examplars”)</li>
+  <li>this exemplars shouldn’t be too simple, but neither should they be too complex</li>
+  <li>As you study the abstract concepts, and the proofs of theorems, follow along with your exemplars to see what those concepts mean and what the details in the proofs say about them.</li>
+</ul>
+
+<p>(2) Reasons why abstract algebra is valuable</p>
+<ul>
+  <li>abstract algebra provides muc more practice on various proof technique</li>
+  <li>group theory is very important in math, science and engineering since it is the mathematics of symmetry</li>
+  <li>many games can be understood by viewing them as permutation groups</li>
+  <li>looking at data and making plausible conjecture and generalization can be learned with practice with groups and rings providing the ground to develop this skill</li>
+  <li>ability to think abstractly can be develop with the help of abstract algebra</li>
+</ul>
+
+<p>(3) Lessons from learning linear algebra</p>
+<ul>
+  <li>an example is worth a thousand definitions</li>
+</ul>
+
+<h2 id="references">REFERENCES:</h2>
+
+<div>
+<ol>
+
+    <li><a href="https://www.quora.com/What-is-the-most-effective-way-to-learn-abstract-algebra">What is the most effective way to learn abstract algebra</a></li>
+
+    <li><a href="https://www.d.umn.edu/~jgallian/valueofAA.html">Reasons why Abstract Algebra is valuable to math ed majors</a></li>
+
+    <li><a href="https://fivetwelvethirteen.wordpress.com/2018/11/29/lessons-from-learning-abstract-algebra/">Lessons from Learning Linear Algebra</a></li>
+
+    <li><a href="http://abstract.ups.edu/download/aata-20180801.pdf">Abstract Algebra: Theory and Applications</a></li>
+
+</ol>
+</div>
+
+<h2 id="books">Books</h2>
+<div>
+<ol>
+
+    <li> Abstract Algebra by David S. Dummit and Richard M. Foote </li>
+
+    <li> A First Course in Abstract Algebra by John B Fraleigh </li>
+
+    <li> Contemporary abstract algebra by Joseph Gallian </li>
+
+    <li> Elements of Abstract Algebra by Allan Clark </li>
+
+    <li> First Course in Abstract Algebra by Joseph J. Rotman </li>
+
+    <li> Visual Group Theory by Nathan Carter </li>
+
+    <li> Fundamentals of Abstract Algebra  by  Malik, Sen &amp; Mordeson </li>
+
+</ol>
+</div>
+:ET

@@ -1,0 +1,22 @@
+I"�<h2 id="notes">Notes</h2>
+<p>(1) Effective way to learn abstract algebra</p>
+<ul>
+  <li>For each concept have an example that you understand well (“examplars”)</li>
+  <li>this exemplars shouldn’t be too simple, but neither should they be too complex</li>
+  <li>As you study the abstract concepts, and the proofs of theorems, follow along with your exemplars to see what those concepts mean and what the details in the proofs say about them.</li>
+</ul>
+
+<p>(2) Reasons why abstract algebra is valuable</p>
+<ul>
+  <li>abstract algebra provides muc more practice on various proof technique</li>
+  <li>group theory is very important in math, science and engineering since it is the mathematics of symmetry</li>
+  <li>many games can be understood by viewing them as permutation groups</li>
+  <li>looking at data and making plausible conjecture and generalization can be learned with practice with groups and rings providing the ground to develop this skill</li>
+  <li>ability to think abstractly can be develop with the help of abstract algebra</li>
+</ul>
+
+<p>(3) Lessons from learning linear algebra</p>
+<ul>
+  <li>an example is worth a thousand definitions</li>
+</ul>
+:ET

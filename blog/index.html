@@ -25,18 +25,6 @@ title: Blog
   {% endfor %}
 </ul>
 
-<!-- <br> -->
-<!-- <div class="post_content"> -->
-<!-- 	{% for post in site.posts %} -->
-<!-- 	<p class="post_header">{{post.date |date_to_string}}  | <span class="tag">{{post.tag}} </span></p> -->
-<!-- 	<p class="post_title"><a href="{{post.url}}">{{post.title}}</a></p> -->
-<!-- 	{{ post.excerpt | remove:'<p>' | remove:'</p>'}} --> 
-<!-- 	<br><br><br> -->
-<!-- 	{% endfor%} -->
-<!-- </div> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
 
 
 </body>
@@ -47,40 +35,3 @@ title: Blog
 
 
 
-
-
-
-
-
-<!--
-<p class="excerpt"><font size="5">{{post.excerpt}}</font></p>
-<p>{{post.excerpt | remove:'<p>' | remove:'</p>'|}}</p> 
-<div class="post_content">
-	{% for post in site.posts %}
-	<p class="post_header"> {{post.category}} | {{post.date | date_to_string}} | <span class="tag">{{post.tag}}</span></p>
-	<p class="post_title"><a href="{{post.url}}"><font size="5.5">{{post.title}} </font></a><br/></p>
-	<p class="excerpt"><font size="5">{{post.excerpt}}</font></p>
-	 <br>
-	{% endfor%}
-</div>
-
-
-==================
-
-<div>
-	{% for post in site.posts %}
-	<ul class="post">
-	 {{ post.date | date_to_string }}
-{{post.category}} : 
-<p class="post_title"> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
-<br>
-{{post.excerpt | remove:'<p>' | remove:'</p>'}}
-	
-	</li>
-	<br/>
-	<br/>
-<br/>
-</ul>
-{% endfor %}
-</div>
--->

@@ -6,16 +6,17 @@
     font-family: 'Droid Serif', sans-serif;
     /**font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;**/
 }
-
+/* 
 :not(h1,h2,h3) {
     text-align: justify;
-}
+} */
 
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 75%;
     overflow-y: scroll;
+    
 }
 
 nav ul, footer ul {
@@ -39,7 +40,16 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: rgb(65, 63, 63);
+}
+
+a.done {
+    text-decoration: line-through;
+    color: green;
+}
+
+a.ongoing{
+    color: orange;
 }
 
 a:hover {
@@ -171,7 +181,7 @@ img {
 .section {
 	clear: both;
 	padding: 0px;
-	margin: 0px;
+	margin: 2px;
 }
 
 /*  COLUMN SETUP  */
@@ -180,7 +190,7 @@ img {
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 0; }
+.col:first-child { margin-left: 5px; }
 
 /*  GROUPING  */
 .group:before,
@@ -194,15 +204,29 @@ img {
     width: 30%;
     background-color:#F0F0F0;
     height: 275px;
-    padding: 10px 10px 10px 5px;
+    padding: 10px 15px 10px 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .span_1_of_3 { 
     width: 30%;
     background-color:#F0F0F0;
-    height: 550px;
-    padding: 10px 10px 10px 5px;
+    /* height: auto; */
+    height: 500px;
+    padding: 10px 15px 10px 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.span_1_of_3 > p{
+    text-decoration: underline;
+    padding-left: 15px;
+}
+.span0_1_of_3 > p{
+    text-decoration: underline;
+    padding-left: 15px;
+}
+.span1_1_of_3 > p{
+    text-decoration: underline;
+    padding-left: 15px;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
@@ -257,4 +281,132 @@ main div > ol{
 
 a.physics,a.math,a.programming,a.gis {
     color: blue;
+}
+
+
+input[type=checkbox]:checked + label{
+    color: #ccc; 
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+
+
+.item {
+    display: grid; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color:white; 
+    padding: 5px;
+    
+}
+
+
+
+
+
+/* THIS CSS FORMAT IS FOR LIST OF BOOKS */
+/*  GROUPING  */
+.group1:before,
+.group1:after { content:""; display:table; }
+.group1:after { clear:both;}
+.group1 { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span1_3_of_3 { width: 100%; }
+.span1_2_of_3 { 
+    width: 30%;
+    background-color:WHITE;
+    height: 275px;
+    padding: 10px 10px 10px 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.span1_1_of_3 { 
+    width: 30%;
+    background-color:white;
+    height: 300px;
+    padding: 0px 15px 10px 0px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col01 {  margin: 1% 0 1% 0%; }
+	.span1_2_of_3, .span1_1_of_3 { width: 100%; }
+}
+
+/* THIS CSS FORMAT IS FOR LIST OF ARTICLES */
+/*  GROUPING  */
+.group0:before,
+.group0:after { content:""; display:table; }
+.group0:after { clear:both;}
+.group0 { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span0_3_of_3 { width: 100%; }
+.span0_2_of_3 { 
+    width: 30%;
+    background-color:WHITE;
+    height: 275px;
+    padding: 10px 10px 10px 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.span0_1_of_3 { 
+    width: 30%;
+    background-color:white;
+    height: 300px;
+    padding: 0px 15px 10px 0px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span0_2_of_3, .span0_1_of_3 { width: 100%; }
+}
+
+label{
+    display: flex;
+}
+
+
+
+/* THIS CSS FORMAT IS FOR LIST OF CATEGORY */
+/*  GROUPING  */
+.group3:before,
+.group3:after { content:""; display:table; }
+.group3:after { clear:both;}
+.group3 { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span3_1_of_3 { 
+    width: 30%;
+    background-color:white;
+    height: 300px;
+    padding: 0px 1px 1px 0px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span3_2_of_3, .span3_1_of_3 { width: 100%; }
+}
+.span3_1_of_3 > h2{
+    padding-left: 20px;
+}
+
+.span3_1_of_3 ul{
+    list-style-type: none;
+    padding: 1px 1px 1px 10px;
+}
+
+.span3_1_of_3 li{
+    padding:1px 1px 1px 10px;
+}
+
+.span3_1_of_3 h2{
+    margin-bottom: -5px;
 }
