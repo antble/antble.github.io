@@ -1,0 +1,16 @@
+I"š<h1 id="chapter-1-monte-carlo-methods">Chapter 1: Monte Carlo Methods</h1>
+<ul>
+  <li>we set out to study a host of classical and quantum problems, all of value as models and with numerous applications and generalizations</li>
+  <li>we also discuss the basic principles of statistical data analysis: how to extract results from well-behaved simulations</li>
+  <li>Monte carlos is extremely general, and the basic recipes allow us - in principle - to solve any problem in statistical physics</li>
+  <li>in practice, much effort has to be spent in designing algorithms specifically geared to the problem at hand</li>
+  <li>concept of sampling
+    <ul>
+      <li>2 fundamentally different sampling approaches: direct sampling and</li>
+      <li>markov-chain sampling: requires Metropolis algorithm</li>
+    </ul>
+  </li>
+  <li>Monte Carlo method is a powerful approach for the calculation of integrals</li>
+  <li></li>
+</ul>
+:ET

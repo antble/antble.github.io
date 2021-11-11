@@ -208,7 +208,7 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .span_1_of_3 { 
-    width: 30%;
+    width: 29%;
     background-color:#F0F0F0;
     /* height: auto; */
     height: 500px;
@@ -232,7 +232,10 @@ img {
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { 
+        width: 100%;
+        height: 700px;
+    }
 }
 
 .researchlist{
@@ -392,8 +395,14 @@ label{
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
-	.span3_2_of_3, .span3_1_of_3 { width: 100%; }
+    .span3_2_of_3, .span3_1_of_3 { width: 100%; }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 30%;
+    }
 }
+
 .span3_1_of_3 > h2{
     padding-left: 20px;
 }
@@ -410,3 +419,5 @@ label{
 .span3_1_of_3 h2{
     margin-bottom: -5px;
 }
+
+

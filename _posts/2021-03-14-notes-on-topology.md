@@ -47,3 +47,4 @@ pre-requisite: real-analysis
     - begin a proof by writing down the information you are given
     - state what you asked to prove
     - if technical terms are given, define them
+

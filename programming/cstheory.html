@@ -8,7 +8,33 @@ title: Abstract Algebra
     This is {{page.title}} Section 
 </h1>
 
-{{page.title}}
-You can see the content of qunatum mechanics here. 
-
+<h2><b>Programming</b></h2>
+<table>
+    <tr>
+        <th>Book Title</th>
+        <!-- <th>Author</th> -->
+        <th>Status</th>
+        <th>Started Date</th>
+        <th>Last Update</th>
+    </tr>
+   
+    {% for book in site.data.book.programming_books %}
+        <tr>
+            <td><a href="#">{{book.title}}</a></td>
+            <!-- <td><a href="#">{{book.author}}</a></td> -->
+            <!-- <td><a href="#">{{book.status}}</a></td> -->
+            {% if book.status == "ongoing" %}
+                <td><span id="ongoing">{{book.status}}</span></td>
+                {% elsif book.status == "done" %}
+                    <td><span id="done">{{book.status}}</span></td>
+                {% elsif book.status == "archived" %}
+                    <td><span id="archived">{{book.status}}</span></td>
+                {% else %}
+                    <td>{{book.status}}</td>
+            {% endif %}
+            <td>{{book.started_date | date: "%b/%d/%y"}}</td>
+            <td>{{book.last_update | date: "%b/%d/%y"}}</td>
+        </tr>
+    {% endfor %}
+</table>
 

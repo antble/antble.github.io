@@ -10,8 +10,14 @@ field: alg
 <h1>
     {{page.title | capitalize}} 
 </h1>
+<h3>Books:</h3>
+<ol>
+    <li>Linear Algebra Done Right</li>
+</ol>
+<!-- <h3>Useful Online references:</h3> -->
 
-<hr>
+
+<!-- <hr>
 <h2>Useful Online references:</h2>
 
 <div class="section group0">
@@ -20,7 +26,6 @@ field: alg
             {% assign label = data.label%}
             <div class="col span0_1_of_3">
                 <p><b>{{label | upcase }}</b></p>
-                <!-- <ul> -->
                     {%for data in site.data.repository[page.field]%}
                         {% if data.label == label %}
                             {% if data.status == "done"%}
@@ -41,7 +46,6 @@ field: alg
                             {% endif %}
                         {% endif %}
                     {% endfor %}    
-                <!-- </ul> -->
             </div>
         {% endif %}
     {% endfor %}
@@ -94,4 +98,4 @@ field: alg
 <br>
 <br>
 
-
+ -->
