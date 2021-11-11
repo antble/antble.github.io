@@ -191,11 +191,10 @@ title: Working On
 
 
 
-<h2><b>Physics</b></h2>
+<!-- <h2><b>Physics</b></h2>
 <table>
     <tr>
         <th>Book Title</th>
-        <!-- <th>Author</th> -->
         <th>Status</th>
         <th>Started Date</th>
         <th>Last Update</th>
@@ -205,8 +204,6 @@ title: Working On
     {% for book in site.data.book.physics_books %}
         <tr>
             <td><a href="#">{{book.title}}</a></td>
-            <!-- <td><a href="#">{{book.author}}</a></td> -->
-            <!-- <td><a href="#">{{book.status}}</a></td> -->
             {% if book.status == "ongoing" %}
                 <td><span id="ongoing">{{book.status}}</span></td>
             {% elsif book.status == "done" %}
@@ -226,7 +223,6 @@ title: Working On
 <table>
     <tr>
         <th>Book Title</th>
-        <!-- <th>Author</th> -->
         <th>Status</th>
         <th>Started Date</th>
         <th>Last Update</th>
@@ -235,8 +231,6 @@ title: Working On
     {% for book in site.data.book.mathematics_books %}
         <tr>
             <td><a href="#">{{book.title}}</a></td>
-            <!-- <td><a href="#">{{book.author}}</a></td> -->
-            <!-- <td><a href="#">{{book.status}}</a></td> -->
             {% if book.status == "ongoing" %}
                 <td><span id="ongoing">{{book.status}}</span></td>
                 {% elsif book.status == "done" %}
@@ -250,6 +244,6 @@ title: Working On
             <td>{{book.last_update | date: "%b/%d/%y"}}</td>
         </tr>
     {% endfor %}
-</table>
+</table> -->
 
 
