@@ -6,8 +6,8 @@ kramdown:
 gems:
   - jekyll-gist
 
-plugins:
-  - jemoji
+# plugins:
+#   - jemoji
 
 highlighter: rouge
 
