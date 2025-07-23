@@ -2,6 +2,7 @@
 layout: post-math
 title: "Notes on Probability Theory"
 date: 2017-10-25
+last_modified_at: 2018-04-14
 category: math 
 tag: probability
 ---
