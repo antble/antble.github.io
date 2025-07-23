@@ -1,13 +1,25 @@
-name: Anthony Val Camposano
+name: AVC
 markdown: kramdown
 kramdown:
+  input: GFM
   math_engine: mathjax
-  
-gems:
-  - jekyll-gist
-
-# plugins:
-#   - jemoji
+  syntax_highlighter: rouge
 
 highlighter: rouge
+  
+rouge:
+  style: base16.monokai
 
+gems:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-scholar

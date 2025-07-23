@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD Student Blog</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center; /* Center the menu on larger screens */
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block; /* Horizontal menu on larger screens */
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #777;
+            transform: translateY(-2px);
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+        }
+
+        nav a:active {
+            background-color: #333;
+            transform: translateY(0);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Media query for smaller screens (e.g., mobile) */
+        @media (max-width: 700px) {  /* Adjust 700px as needed */
+            nav {
+                text-align: center; /* Center the menu */
+            }
+
+            nav ul {
+                display: flex; /* Use flexbox for horizontal arrangement */
+                flex-wrap: wrap; /* Allow items to wrap to the next line */
+                justify-content: center; /* Center the items horizontally */
+            }
+
+            nav li {
+                display: inline-block; /* Keep list items inline */
+                margin: 10px 5px; /* Adjust spacing between buttons */
+            }
+
+            nav a {
+                width: auto; /* Let buttons take their natural width */
+                box-sizing: border-box; /* Include padding in width */
+                margin: 5px; /* Add some margin around buttons */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/research">Research</a></li>
+            <li><a href="/resume">Resume/CV</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to My Blog</h1>
+        <p>This is where I'll share my thoughts and experiences as a PhD student...</p>
+    </main>
+
+</body>
+</html>

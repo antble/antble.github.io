@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="category">
+  <h2>
+    <a href="/">home</a>
+    <a href="/physics" class="active">physics</a>
+    <a href="/math">math</a>
+    <a href="/programming">coding</a>
+    <!-- <a href="/others">others</a> -->
+  </h2> 
+</div>
+
+<h1>{{ page.title }}</h1>
+<div>
+  Started: {{ page.date | date: "%d %b %Y" }} <br>
+  Updated: {{ page.last_modified_at | date: "%d %b %Y" }}
+</div>
+{{ content }}

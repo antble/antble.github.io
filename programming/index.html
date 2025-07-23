@@ -1,26 +1,27 @@
 ---
 layout: default
-title: programming
+title: Coding
 ---
 <div class="category">
-<h2>
-	<!-- <a href="/blog">all posts</a> | --> |
-	<a href="/physics">physics</a> | 
-	<a href="/programming" class="programming">programming</a> | 
-	<a href="/math">mathematics</a> |
-	<a href="/gis">gis</a> |
-</h2> 
-<div>
+  <h2>
+    <a href="/">home</a>
+    <a href="/physics">physics</a>
+    <a href="/math">math</a>
+    <a href="/programming" class="active">coding</a>
+    <!-- <a href="/others">others</a> -->
+  </h2> 
+</div>
 
-<!-- <p><i>Category: Programming</i></p> -->
+<h2>Programming</h2>
+<i>
+  <blockquote>"The lurking suspicion that something could be simplified is the world's richest source of rewarding challenges." - Edsger Dijkstra</blockquote>
+</i>
+<p> Collection of notes about programming-related topic,</p>
 
-<br>
-<ul>
+<ul class="compact-list">
   {% for post in site.categories.programming %}
-    {% if post.url %}
-        <li><h4><sup>({{post.date| date_to_string}})</sup> <a href="{{ post.url }}">{{ post.title }}</a></h4></li>
+    {% if post.url and post.status != "archive"  %}
+      <li><b><a href="{{ post.url }}">{{ post.title }}</a></b></li>
     {% endif %}
   {% endfor %}
 </ul>
-
-

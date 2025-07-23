@@ -1,22 +1,55 @@
 ---
 layout: default
-title: Anthony Val Camposano
+title: AVC 
 quote: home sweet home
 ---
 
-<!--
-<img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=Albany,+NY&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of Albany, NY">
--->
-
-<div>
-	<br><br><br>
-	<h1>Keep Writing. Anything.</h1>
-	<blockquote>
-		"The act of composition disciplines the mind; writing is one way to go about thinking, and the practice and habit of writing not only drain the mind, but supply it too." <b>Strunk and White,</b> <i>The Elements of Style, 3<sup>rd</sup> ed., p.70</i>
-	</blockquote>	
-	<br>
-	<br>
-	<p>Hello there. [<a href="/about">Short Bio</a>]</p>
+<div class="category">
+  <h2>
+    <a href="/" class="active">home</a>
+    <a href="/physics">physics</a>
+    <a href="/math">math</a>
+    <a href="/programming" >coding</a>
+    <!-- <a href="/others">others</a> -->
+  </h2> 
 </div>
+  
+<h2>Keep Writing. Anything.</h2>
+<blockquote>
+  "The act of composition disciplines the mind; writing is one way to go about thinking, and the practice and habit of writing not only drain the mind, but supply it too." <b>Strunk and White,</b> <i>The Elements of Style, 3<sup>rd</sup> ed., p.70</i>
+</blockquote>	
+<p>This blog has three goals in mind:</p>
+<ol>
+  <li>To keep writing.</li> 
+  <ul>
+    <li>What's the most interesting thing I've learned this week?</li>
+  </ul>
+  <li>To keep learning.</li>
+  <ul>
+    <li>What topic or idea am I curious about?</li> 
+  </ul>
+  <li>To keep sharing.</li>
+  <ul>
+    <li>What topic or idea I've written about needs an update?</li> 
+  </ul>
+</ol>
 
-
+This blog is a working archive: thoughts, ideas, notes. 
+Diverse topics. The 'beton brut' aesthetic is deliberate. It is raw, unfinished, and intentionally left as a work in progress. 
+<br>
+<br>
+Mainly divided into 3 main categories: <b>Physics</b>, <b>Programming</b>, and <b>Math</b>. And then of course, other stuff ... 
+<ul class="compact-list">
+  {% for post in site.categories.aboutme %}
+    {% if post.url and post.status != "archive"  %}
+    <li><b><a href="{{ post.url }}">{{ post.title }}</a></b></li>
+    {% endif %}
+  {% endfor %}
+  {% for post in site.categories.others %}
+    {% if post.url and post.status != "archive"  %}
+    <li><b><a href="{{ post.url }}">{{ post.title }}</a></b></li>
+    {% endif %}
+  {% endfor %}
+  <li><a href="/working"><b>Ongoing Learning</b></a></li>
+  
+</ul>

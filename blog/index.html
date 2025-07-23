@@ -2,30 +2,25 @@
 layout: default
 title: Blog
 ---
-<body>
-	
+
 <div class="category">
-<h2>
-	<!-- <a href="/blog">all posts</a> | --> |
-	<a href="/physics" class="physics"> physics</a> | 
-	<a href="/programming">programming</a> | 
-	<a href="/math">mathematics</a> |
-	<a href="/gis">gis</a> |
-</h2> 
+  <h2>
+    <a href="/physics">physics</a>
+    <a href="/programming" class="active">programming</a>
+    <a href="/math">mathematics</a>
+    <a href="/others">others</a>
+  </h2> 
 </div>
 
 <br> 
 <ul>
   {% for post in site.categories.physics %}
     {% if post.url %}
-        <li><h4><sup>({{post.date| date_to_string}})</sup> <a href="{{ post.url }}">{{ post.title }}</a>  </h4></li>
+        <li><h4> <a href="{{ post.url }}">{{ post.title }}</a>  </h4></li>
+        <!-- <sup>({{post.date| date_to_string}})</sup> -->
     {% endif %}
   {% endfor %}
 </ul>
-
-
-
-</body>
 
 
 

@@ -1,0 +1,14 @@
+---
+layout: post-archive
+permalink: /archive/
+---
+
+<h2>Archived Posts</h2>
+Collection of posts that are no longer relevant or updated. 
+I lost interest in the topic, or the information is outdated due to the fast pace of technology.
+<ul>
+  {% assign archived_posts = site.posts | where: "status", "archive" %}
+  {% for post in archived_posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
