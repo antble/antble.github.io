@@ -36,6 +36,15 @@ body {
   .container {
     padding: 1.5rem;
   }
+  .category h2 {
+  display: flex; /* Makes the h2 a flex container */
+  flex-wrap: nowrap; /* Forces all links onto one line */
+}
+  .category a {
+    flex: 1; /* Allows links to grow equally */
+    text-align: center; /* Centers text within each link */
+    margin: 0 5px; /* Adds horizontal spacing between links */
+  }
 }
 
 .compact-list a {
@@ -91,13 +100,6 @@ body {
   background: var(--link-color);
   color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-}
-
-/* Add this inside your existing media query in main.css */
-
-.category h2 {
-  display: flex; /* Makes the h2 a flex container */
-  flex-wrap: nowrap; /* Forces all links onto one line */
 }
 
 
