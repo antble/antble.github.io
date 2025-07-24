@@ -66,8 +66,10 @@ body {
   margin-bottom: 2rem;
 }
 
+
 .category a {
   padding: 10px 18px;
+  flex-wrap: nowrap;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
@@ -76,6 +78,7 @@ body {
   border-radius: 6px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease-in-out;
+  margin: 1px 3px 1px 4px;
 }
 
 .category a:hover {
@@ -89,6 +92,14 @@ body {
   color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
+
+/* Add this inside your existing media query in main.css */
+
+.category h2 {
+  display: flex; /* Makes the h2 a flex container */
+  flex-wrap: nowrap; /* Forces all links onto one line */
+}
+
 
 .my-container {
   width: 100%;
