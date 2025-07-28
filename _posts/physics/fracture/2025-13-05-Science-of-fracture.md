@@ -63,12 +63,15 @@ Some key concepts from this field are:
 
 
 **Fracture Phenomena by Length Scale**: understanding and modeling fracture effectively requires a clear acknowledgement of its hierarchical nature. The physical mechanisms that dominate fracture processes, the relevant material features, and consequently the most appropriate modeling approaches, vary significantly with the length scale under consideration. 
-<div class="image-caption-container">
-<img src="{{site.url}}/assets/fracture/fracturelengthscale.png">
-Fracture at different length scale
+<div class="my-container">
+<img src="{{ '/assets/fracture/fracturelengthscale.png' | relative_url }}"  
+    alt="Fracture at different length scale" 
+     style="width: 45%; height: auto;"
+     >
+<p text-align="center">Fracture at different length scale</p>
 </div>
 
-- **Nanoscale fracture** ($<100nm$): fracture is governed by the discrete interactions between individual atoms and molecules
+- **Nanoscale fracture** ($<100$ nm): fracture is governed by the discrete interactions between individual atoms and molecules
   - key phenomena at this scale include the explicit breaking of atomic bonds at a crack tip, the nucleation and motion of dislocations from highly stressed regions near a crack,  
   - modeling tools: 
     - molecular dynamics (MD)

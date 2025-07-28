@@ -29,8 +29,7 @@ tag: physics, fundamentals
 - **Physical law**: the fundamental principles and equations that govern the behavior of electrons and nuclei in atoms and molecules. These laws are derived from quantum mechanics and electrodynamics.
     - physical laws in Quantum Chemistry include:
       - Schrodinger equation: $$
-i \hbar \frac{\partial}{\partial t} \Psi\left(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N, t\right)=\hat{H} \Psi\left(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N, t\right),
-$$ where $\hat{H}$ is the Hamiltonian operator for the system. 
+i \hbar \frac{\partial}{\partial t} \Psi\left(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N, t\right)=\hat{H} \Psi\left(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N, t\right),$$ where $\hat{H}$ is the Hamiltonian operator for the system. 
             - when solved, it gives you the wave function or electron density, which defines the state of the system
       - Born-Oppenheimer approximation: $$
 \hat{H}=\hat{T}_e+\hat{V}_{e e}+\hat{V}_{e n}+\hat{V}_{n n}
