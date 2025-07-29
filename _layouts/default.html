@@ -3,7 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=1024">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- Google Fonts -->
@@ -16,18 +18,27 @@
   <link rel="stylesheet" href="{{ '/assets/css/synthwave.css' | relative_url }}"> <!-- Or your chosen theme -->
 
   <!-- MathJax for LaTeX -->
-  <script>
+  <!-- <script>
     window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']]
       }
     };
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams' // enables automatic equation numbering
+    },
+  };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
 </head>
 <body>
-
-  <div class="container">
+    <div class="container">
     <main>
       {{ content }}
     </main>
