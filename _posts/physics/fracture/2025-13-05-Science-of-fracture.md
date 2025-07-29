@@ -6,6 +6,22 @@ last_modified_at: 2025-07-29
 category: physics
 tag: physics, mechanics, multiscale
 ---
+# Table of Content
+- [Table of Content](#table-of-content)
+- [Fundamentals of Fracture Mechanics](#fundamentals-of-fracture-mechanics)
+  - [Modeling Damage](#modeling-damage)
+  - [Key Concepts](#key-concepts)
+- [Methods of Studying Fracture Mechanics](#methods-of-studying-fracture-mechanics)
+  - [Linear Elastic Fracture Mechanics (LEFM)](#linear-elastic-fracture-mechanics-lefm)
+  - [Elastic-Plastic Fracture Mechanics (EPFM)](#elastic-plastic-fracture-mechanics-epfm)
+  - [Finite Element Method (FEM)](#finite-element-method-fem)
+  - [Extended Finite Element Method (XFEM)](#extended-finite-element-method-xfem)
+  - [Peridynamics](#peridynamics)
+- [Scale Mismatch challenge](#scale-mismatch-challenge)
+- [Timeline](#timeline)
+- [References](#references)
+
+# Fundamentals of Fracture Mechanics
 The science of fracture is a field of mechanics to understand and be able to do something before a fracture occur on materials. It focuses on crack initiation and propagation. At its core, it is known as fracture mechanics. [[1]](#tudelfnotes)
 
 Microscopic cracks and defects are present in all materials due to various sources. When a load is applied to a material, these cracks act as stress concentrators. The stress at the tip of a crack can be significantly higher than the overall applied stress on the material. 
@@ -21,7 +37,7 @@ fracture in Si at 10K, simulation data from <a href="#file">[2] </a>
 - ductile fracture: the material undergoes significant plastic deformation before the crack propagates 
 - brittle fracture: occurs suddenly and with little or no prior plastic deformation
 
-**Macroscopic Manifestation of Fracture** [[6]](#kuna2013)
+**Macroscopic Manifestation of Fracture** [[6]](#Meinhard2013)
 - type of loading 
 - orientation of a crack in relation to its principal stresses
 - stability of crack propagation 
@@ -29,7 +45,7 @@ fracture in Si at 10K, simulation data from <a href="#file">[2] </a>
 - subcritical crack growth
 - crack growth rate
 
-**Microscopic Appearances of Fracture** [[6]](#kuna2013)
+**Microscopic Appearances of Fracture** [[6]](#Meinhard2013)
 - cleavage fracture
 - dimple fracture
 - fatigue fracture
@@ -55,8 +71,9 @@ fracture in Si at 10K, simulation data from <a href="#file">[2] </a>
      style="width: 60%; height: auto;"
      >
 </div>
-<p style="text-align: center; margin-top: 0.5em;">a comprehensive classification list for fracture processes from reference <a href="#kuna2013">(Kuna, 2013)</a> in chapter 2.
+<p style="text-align: center; margin-top: 0.5em;">a comprehensive classification list for fracture processes from reference <a href="#Meinhard2013">(Meinhard, 2013)</a> in chapter 2.
 </p>
+
 
 
 ## Modeling Damage
@@ -77,10 +94,22 @@ damage variables: effective stress, uniaxial state of stress
 hypothesis of mechanical equivalence between the damaged and the undamaged material
 other damage variables
 
-Fracture mechanics provides a relation between geometry ($G$), the position and size ($a$) of the crack-like defect, the external loading ($L$), the local crack loading ($B$), the material resistance against crack propagation ($B_c$), and specific deformation law (elasticity, plasticity, etc.) of the material (M) [[6]](#kuna2013):
+<div class="my-container">
+<img src="{{ '/assets/fracture/fractureprocesses.png' | relative_url }}"  
+    alt="Fracture at different length scale" 
+     style="width: 80%; height: auto;"
+     >
+</div>
+<p style="text-align: center; margin-top: 0.5em;">Damage mechanics vs. Fracture mechanics from reference <a href="#Meinhard2013">(Meinhard, 2013)</a> in chapter 1.
+</p>
+
+
+Fracture mechanics provides a relation between geometry ($G$), the position and size ($a$) of the crack-like defect, the external loading ($L$), the local crack loading ($B$), the material resistance against crack propagation ($B_c$), and specific deformation law (elasticity, plasticity, etc.) of the material (M) [[6]](#Meinhard2013):
 \begin{equation}
   B(G, L, M, a) \leq B_c(M)
 \end{equation}
+
+
 
 ## Key Concepts
 **Foundational Principles of Fracture Mechanics**: several key theoretical developments that laid the groundwork for modern fracture mechanics that provided the fundamental language and conceptss for analyzing cracked bodies
@@ -170,18 +199,63 @@ Some key concepts from this field are:
     - modeling tools: 
       -  [Linear Elastic Fracture Mechanics (LEFM)](#linear-elastic-fracture-mechanics)
       -  [Elastic-Plastic Fracture Mechanics (EPFM)](#elastic-plastic-fracture-mechanics)
-      -  Finite Element Method (FEM) is extensively employed, often with specialized techniques to represent cracks, such as discrete crack elements, cohesive zone elements along potential crack paths
-      -  advanced methods like the Extended Finite Element Method (XFEM)
-      -  Peridynamics, particularly suited for large-scale simulations involving dynamic fracture and fragmentation
+      -  [Finite Element Method (FEM)](#finite-element-method) is extensively employed, often with specialized techniques to represent cracks, such as discrete crack elements, cohesive zone elements along potential crack paths
+      -  advanced methods like the [Extended Finite Element Method (XFEM)](#extended-finite-element-method)
+      -  [Peridynamics](#peridynamics), particularly suited for large-scale simulations involving dynamic fracture and fragmentation
 
+# Methods of Studying Fracture Mechanics
+## Linear Elastic Fracture Mechanics (LEFM)
+  - built upon the principles of linear elasticity and an energy-based criterion for crack propagation, making it highly effective for analyzing brittle materials or ductile materials under conditions where plastic deformation is minimal.
+  - crack problems are analyzed in bodies whose deformation behavior can be assumed to be linear-elastic according to the generalized Hooke's law [[6]](#Meinhard2013)
+    - in most cases: non-linear effects are limited to small areas which may be neglected in comparison to crack size or the component dimensions
+    - elastic material are isotropic, but may be anisotropic. 
+    - the linearity implies small displacements and infinitesimal deformations 
+  - The entire theoretical structure of LEFM rests upon a single, crucial assumption: small-scale yielding (SSY).
+      - in SSY, the plastic zone is situated inside the elastic crack tip
+
+
+## Elastic-Plastic Fracture Mechanics (EPFM)
+  - also designated as ductile fracture mechanics
+  - plastic deformation is associated with a significant amount of energy dissipation in the body, which can get rather larger compared to the energy consumption during crack propagation [[6]](#Meinhard2013)
+  - analytical solution methods of elastic-plastic fracture mechanics are very limited and restricted to simple material models, plane crack configurations and mostly monotonic loads. [[6]](#Meinhard2013)
+
+
+## Finite Element Method (FEM)
+  - often used interchangeably with Finite Element Analysis (FEA), is the most widely established and versatile numerical technique for solving problems in structural mechanics. It has become the workhorse for stress analysis and has been adapted to provide powerful tools for fracture mechanics calculations. [[7]](#lard1992)
+  - FEM is a numerical procedure for obtaining approximate solutions to the partial differential equations that govern physical phenomena [[6]](#Meinhard2013)
+  - in solid mechanics, the method works by taking a complex geometric domain and discretizing it into a collection, or "mesh," of smaller, simpler, interconnected subdomains called finite elements. Common element shapes include triangles and quadrilaterals in 2D, and tetrahedra and hexahedra (bricks) in 3D.
+  - the power of FEM lies in its ability to model virtually any geometry and loading condition with an accuracy acceptable to engineers, 
+
+## Extended Finite Element Method (XFEM)
+-  It was conceived with the specific goal of overcoming the most significant practical limitation of the traditional Finite Element Method in this domain: the strict requirement that the finite element mesh must conform to the crack geometry, and the associated need for cumbersome remeshing during crack propagation simulations
+-  XFEM is built upon a powerful mathematical concept known as the Partition of Unity Method (PUM). The standard FEM approximation represents the solution as a sum of polynomial shape functions, each multiplied by a nodal value. 
+- eXtended Finite Element Method (XFEM) handles geometries containing singularities without the need of building a conforming mesh [[7]](#moes1999), [[8]](#duflot2007), [[9]](belytschko1999)
+
+## Peridynamics 
+- introduced by Stewart Silling at Sandia National Laboratories in 2000 [[11]](#silling2000)
+- all of the preceding methodologies, LEFM, EPFM, FEM, and XFEM, are "local" theories rooted in classical continuum mechanics (CCM). 
+  - governing equations are partial differential equations that rely on spatial derivatives of the displacement field (to define strain) and the stress field (in the equations of equilibrium). 
+  - At a discontinuity such as a crack surface, the displacement field is no longer continuous, and its derivatives are mathematically undefined. 
+  - this is the fundamental source of the stress singularity problem that requires the specialized treatment seen in LEFM (the K-field), FEM (quarter-point elements), and XFEM (singular enrichments).
+- Peridynamics (PD) sidesteps this entire issue by reformulating the equations of motion in a non-local, integral form. It dispenses with the concepts of stress and strain tensors and their spatial derivatives.
+- fracture is not governed by an external rule; it is an emergent phenomenon that arises naturally from the material's own constitutive law.
+  - achieved by incorporating a failure criterion at the most fundamental level: the individual bond. A simple and common constitutive model for a bond is to assume it behaves like a spring up to a certain critical stretch, $s_c$. If the stretch of a bond between two points exceeds this critical value, the bond is considered irreversibly "broken" and can no longer sustain a force. [[12]](#pagani2022)
+- this approach represents a fundamental shift in how fracture is modeled. In FEM and XFEM, the complexity of fracture is handled by the numerical solver, which must employ special techniques (remeshing, enrichment) and be guided by an external failure law. Peridynamics shifts this complexity from the solver to the constitutive model. 
+
+
+
+# Scale Mismatch challenge
 A significant hurdle in comprehensive fracture analysis is the "scale-mismatch" challenge. Phenomena that are critical at a lower scale (e.g., the diffusion of hydrogen atoms at the nanoscale, or the interaction of dislocations with precipitates at the microscale) can have profound and often detrimental consequences at a higher scale (e.g., hydrogen embrittlement leading to macroscopic failure, or the initiation of fatigue cracks). However, directly simulating these processes across the entire range of scales—from atomic interactions to component failure—is typically computationally prohibitive. 
 
 
 Molecular dynamics simulations, for example, are powerful for elucidating atomistic mechanisms but are severely limited in the time and length scales they can practically address. One way to overcome this, with the current advent of GPUs, is to use an computationally efficient force field that would allow large scale and long range simulations. Conversely, macroscale models often rely on phenomenological constitutive laws that might not accurately capture the underlying physics if they are not properly informed by an understanding of lower-scale behaviors. This scale mismatch necessitates the development of robust multiscale modeling strategies or the formulation of advanced, physics-informed macroscale models that can effectively encapsulate the critical effects of lower-scale phenomena without requiring their explicit resolution.
 
-## Linear Elastic Fracture Mechanics
-## Elastic-Plastic Fracture Mechanics
-  - 
 
----
+
+
+# Timeline
+{% include tl_fracture.md %}
+
+
+# References
 {% include references_fracture.md %}

@@ -201,9 +201,55 @@ body {
     text-align: left;
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-top: 3px solid #7b8a99;
+  padding-top: 37px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.event {
+  text-align: center;
+  position: relative;
+  flex: 1;
+}
+
+.event::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #d3d8dc;
+  border: 2px solid #7b8a99;
+  border-radius: 50%;
+  position: absolute;
+  top: -48.5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.year {
+  font-weight: bold;
+  color: #2e3b4e;
+  margin-top: -25px; /* Adjust this value to bring them closer */
+}
+
+
+.desc {
+  font-size: 11px;
+  color: #2e3b4e;
+  white-space: nowrap; 
+}
+
+
+
 /* --- End of main.css --- */
-
-
-
-
 
