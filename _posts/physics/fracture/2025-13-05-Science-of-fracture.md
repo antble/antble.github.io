@@ -197,10 +197,10 @@ Some key concepts from this field are:
     - cracks are typically treated as distinct geometric discontinuities rather than diffuse damage zones (though CDM can also be applied at this scale with homogenized damage properties)
     - primary focus of macroscale fracture modeling is on assessing structural integrity, determining crack stability (i.e., whether an existing crack will propagate under given loads), predicting the remaining service life of cracked components, and understanding fatigue crack growth behavior.
     - modeling tools: 
-      -  [Linear Elastic Fracture Mechanics (LEFM)](#linear-elastic-fracture-mechanics)
-      -  [Elastic-Plastic Fracture Mechanics (EPFM)](#elastic-plastic-fracture-mechanics)
+      -  [Linear Elastic Fracture Mechanics (LEFM)](#linear-elastic-fracture-mechanics-lefm)
+      -  [Elastic-Plastic Fracture Mechanics (EPFM)](#elastic-plastic-fracture-mechanics-epfm)
       -  [Finite Element Method (FEM)](#finite-element-method) is extensively employed, often with specialized techniques to represent cracks, such as discrete crack elements, cohesive zone elements along potential crack paths
-      -  advanced methods like the [Extended Finite Element Method (XFEM)](#extended-finite-element-method)
+      -  advanced methods like the [Extended Finite Element Method (XFEM)](#extended-finite-element-method-xfem)
       -  [Peridynamics](#peridynamics), particularly suited for large-scale simulations involving dynamic fracture and fragmentation
 
 # Methods of Studying Fracture Mechanics
