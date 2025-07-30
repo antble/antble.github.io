@@ -2,6 +2,7 @@
 layout: post-programming
 title: "Introduction to Cryptocurrency"
 date: 2017-11-07
+last_modified_at: 2017-11-17
 category: programming
 tag: cryptography
 status: archive
@@ -168,5 +169,3 @@ proof-of-burn : nothing's going to redeem that
 <br>
 
 **To be continued ..**
-
-Last Update: 17/11/2017

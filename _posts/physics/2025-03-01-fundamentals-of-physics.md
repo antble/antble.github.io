@@ -70,13 +70,6 @@ Solving these problems generally involves three stages: physical, mathematical, 
 
 
 
-
-
-
-
-
-
-
 ---
 {% include references_fundamentalsofphysics.md%}
 
