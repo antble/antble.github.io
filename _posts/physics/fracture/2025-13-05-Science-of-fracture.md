@@ -113,6 +113,7 @@ Fracture mechanics provides a relation between geometry ($G$), the position and 
 
 ## Key Concepts
 **Foundational Principles of Fracture Mechanics**: several key theoretical developments that laid the groundwork for modern fracture mechanics that provided the fundamental language and conceptss for analyzing cracked bodies
+  - first quantitative evidence of stress concentration effects of flaws was provided by Inglis (1913), analyzing elliptical holes in flat plates  [[13]](#inglis1913)
   -  Griffith's Energy Balance Criterion and Early Insights 
      -  fundamental contradiction: theoretical strength of a material $\neq$ force needed to break atomic bonds e.g. 100MPa $<<$ 10,000MPa
      -  Griffith hypothesized that this discrepancy was due to the presence of microscopic flaws or cracks within the material
