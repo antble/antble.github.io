@@ -10,4 +10,6 @@
 10. <a name="belytschko1999"></a>Belytschko, T., & Black, T. (1999). Elastic crack growth in finite elements with minimal remeshing. International journal for numerical methods in engineering, 45(5), 601-620.
 11. <a name="silling2000"></a>Silling, S. A. (2000). Reformulation of elasticity theory for discontinuities and long-range forces. Journal of the Mechanics and Physics of Solids, 48(1), 175-209.
 12. <a name="pagani2022"></a>Pagani, A., Enea, M., & Carrera, E. (2022). Quasi‐static fracture analysis by coupled three‐dimensional peridynamics and high order one‐dimensional finite elements based on local elasticity. International Journal for Numerical Methods in Engineering, 123(4), 1098-1113.
+13. <a name="inglis1913"></a>CE, Inglis (1913). Stresses in a plate due to the presence of cracks and sharp corners. Trans Inst Naval Archit, 55, 219-241.
+
 

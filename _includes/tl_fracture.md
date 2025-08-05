@@ -1,5 +1,9 @@
 <div class="timeline">
   <div class="event">
+    <div class="year">1913</div>
+    <div class="desc">C.E. Inglis</div>
+  </div>
+  <div class="event">
     <div class="year">1920s</div>
     <div class="desc">A.A. Griffith</div>
   </div>
