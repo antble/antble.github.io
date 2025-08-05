@@ -59,6 +59,9 @@ Author: Attila Szabo and Neil S. Ostlund (1982)
   
 
 ### **chapter 3:** Hartree-Fock approximation: a foundational mean-field model
+- computational notes: 
+  - two-electron SCF fortran code for $HeH^+$ from Appendix B: [twoeSCF.f](https://github.com/antble/modernquantumchemistry/blob/main/twoeSCF.f)
+  - python attempts for chapter 3: [chapter 3.5.1, 3.5.2](https://github.com/antble/modernquantumchemistry/blob/main/Modern%20Quantum%20Mechanics%20-%20Szabo%2C%20Attila.ipynb)
 - the intellectual core of the book's first half and is widely regarded as one of the most lucid and thorough treatments of the Hartree-Fock (HF) method 
 - it is the cornerston of ab initio quantum chemistry
   - serve as the conceptual starting point and computational reference for virtually all more advanced methods
