@@ -1,0 +1,126 @@
+/*
+  Gruvbox Dark theme for Rouge
+  ----------------------------
+  From https://github.com/jneen/rouge/blob/master/lib/rouge/themes/gruvbox.rb
+*/
+.highlight pre,
+pre.highlight {
+  /* background-color: #282a36; */
+  background-color: #2b213a;
+  color: #f8f8f2;
+  padding: 1.5em;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Fira Code', 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+  line-height: 1.5;
+  border: 1px solid #44475a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #ebdbb2;
+  background-color: #282828;
+}
+/* .highlight .err {
+  color: #282828;
+  background-color: #fb4934;
+} */
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #928374;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #928374;
+}
+.highlight .nt {
+  color: #fb4934;
+}
+.highlight .o, .highlight .ow {
+  color: #fe8019;
+}
+.highlight .p, .highlight .pi {
+  color: #ebdbb2;
+}
+.highlight .gd {
+  color: #fb4934;
+}
+.highlight .gi {
+  color: #b8bb26;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #fe8019;
+}
+.highlight .kc {
+  color: #d3869b;
+}
+.highlight .kt {
+  color: #fabd2f;
+}
+.highlight .kd {
+  color: #fe8019;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+  color: #b8bb26;
+}
+.highlight .sa {
+  color: #b8bb26;
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #d3869b;
+}
+.highlight .na {
+  color: #b8bb26;
+}
+.highlight .nb {
+  color: #fabd2f;
+}
+.highlight .nc {
+  color: #fabd2f;
+}
+.highlight .no {
+  color: #d3869b;
+}
+.highlight .nd {
+  color: #fe8019;
+}
+.highlight .ni {
+  color: #ebdbb2;
+}
+.highlight .ne {
+  color: #fb4934;
+}
+.highlight .nf {
+  color: #fabd2f;
+}
+.highlight .nl {
+  color: #ebdbb2;
+}
+.highlight .nn {
+  color: #fabd2f;
+}
+.highlight .py {
+  color: #ebdbb2;
+}
+.highlight .bp {
+  color: #ebdbb2;
+}
+.highlight .vc {
+  color: #ebdbb2;
+}
+.highlight .vg {
+  color: #ebdbb2;
+}
+.highlight .vi {
+  color: #ebdbb2;
+}
+.highlight .vm {
+  color: #ebdbb2;
+}
+.highlight .n {
+  color: #ebdbb2;
+}
+.highlight .w {
+  color: #ebdbb2;
+}

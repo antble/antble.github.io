@@ -1,0 +1,61 @@
+/* --- Styles for Reading List / Grid Page --- */
+
+/* Main container for all the sections */
+.reading-sections-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* Space between major sections like "Learning", "Coding Skills", etc. */
+}
+
+/* A single section (e.g., "Learning") */
+.reading-section {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.5rem;
+}
+
+.reading-section-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--text-color);
+  text-align: left;
+}
+
+/* The grid container for the columns */
+.reading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem; /* Space between the columns */
+}
+
+.reading-category-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.reading-list {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.reading-list li {
+  margin-bottom: 0.75rem;
+}
+
+.reading-list a {
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.reading-list a:hover {
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
+}
+
+.reading-list strike {
+  color: var(--meta-text-color);
+}

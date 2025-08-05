@@ -1,0 +1,32 @@
+/* Dracula Theme */
+.highlight pre,
+pre.highlight {
+  background-color: #282a36;
+  color: #f8f8f2;
+  padding: 1.5em;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Fira Code', 'JetBrains Mono', monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+  border: 1px solid #44475a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.highlight .hll { background-color: #44475a; }
+.highlight .c, .highlight .c1, .highlight .cs, .highlight .cm { color: #6272a4; } /* Comment */
+.highlight .err { color: #f8f8f2; background-color: #ff5555; } /* Error */
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kt { color: #ff79c6; } /* Keyword */
+.highlight .o, .highlight .ow { color: #ff79c6; } /* Operator */
+.highlight .p { color: #f8f8f2; } /* Punctuation */
+.highlight .n, .highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .nl, .highlight .nn, .highlight .nx, .highlight .py { color: #f8f8f2; } /* Name */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr { color: #f1fa8c; } /* String */
+.highlight .na { color: #50fa7b; } /* Name.Attribute */
+.highlight .nf { color: #50fa7b; } /* Name.Function */
+.highlight .ne { color: #50fa7b; } /* Name.Exception */
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi { color: #8be9fd; } /* Name.Variable */
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #bd93f9; } /* Literal.Number */
+.highlight .nt { color: #ff79c6; } /* Name.Tag */
+.highlight .cp, .highlight .ge { color: #ffb86c; font-style: italic; } /* Comment.Preproc, Generic.Emph */
+.highlight .gs { font-weight: bold; } /* Generic.Strong */
+.highlight .gu { color: #6272a4; } /* Generic.Subheading */
