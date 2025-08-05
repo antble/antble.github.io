@@ -4,7 +4,7 @@ title: "Fundamentals of Physics"
 date: 2023-06-22
 last_modified_at: 2025-03-01
 category: physics
-tag: physics, fundamentals
+tag: [physics, fundamentals]
 ---
 
 I found an old book [1] that discuss some ideas that is similar to what I have introduced in an old post about how to learn almost anything. The book introduces some of the fundamentals concepts of physics that are important to remember when studying different fields in physics because of its transferability and it may serve as an anchoring structure to make an order of the complexity of each field. 

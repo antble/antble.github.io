@@ -3,7 +3,7 @@ layout: post-physics
 title: "Mathematical Tools for Quantum Mechanics"
 date: 2017-11-22
 category: math
-tag: quantum mechanics
+tags: [quantum mechanics]
 status: archive
 ---
 <div style="text-align: justify;">

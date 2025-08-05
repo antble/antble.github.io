@@ -4,7 +4,7 @@ title: "Fundamentals of Classical Mechanics"
 date: 2025-03-05
 latest_modifed_at: 2025-03-05
 category: physics
-tag: physics, fundamentals, classical, mechanics
+tags: [physics, fundamentals, classical, mechanics]
 ---
 
 

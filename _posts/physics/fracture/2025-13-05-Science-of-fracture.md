@@ -4,7 +4,7 @@ title: "Science of Fractures"
 date: 2025-05-13
 last_modified_at: 2025-07-29
 category: physics
-tag: physics, mechanics, multiscale
+tag: [physics, mechanics, multiscale, notes]
 ---
 # Table of Content
 - [Table of Content](#table-of-content)

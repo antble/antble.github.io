@@ -3,7 +3,7 @@ layout: post-physics
 title: "Quantum Chemistry In a Nutshell"
 date: 2019-09-11
 category: physics 
-tag: chemistry, education
+tag: [chemistry, education, notes]
 ---
 
 Way back in the past when Einstein was the talk of the daily newpaper, Dirac initiated the idea that almost all chemistry problems where already solved with the introduction of the quantum wave equation of Schrodinger. He said, 

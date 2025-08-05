@@ -4,7 +4,7 @@ title: Fundamentals of General Relativity
 date: 2025-03-12
 last_modified_at: 2025-03-12
 category: physics
-tag: relativity, gravity 
+tag: [relativity, gravity, fundamentals]
 ---
 
 

@@ -4,7 +4,7 @@ title: Fundamentals of Quantum Field Theory
 date: 2025-03-12
 latest_modified_at: 2025-03-12
 category: physics
-tag: quantum, fundamentals, physics
+tag: [quantum, fundamentals, physics]
 --- 
 
 

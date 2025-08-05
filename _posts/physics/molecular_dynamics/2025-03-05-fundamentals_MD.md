@@ -1,10 +1,10 @@
 ---
 layout: post-physics
-title: "Fundamentals of Molecular Dynamics" 
+title: "Notes on Molecular Dynamics" 
 date: 2025-03-04
 last_modified_at: 2025-03-05
 category: physics
-tag: molecule, dynamics
+tag: [molecule, dynamics, notes]
 ---
 
 

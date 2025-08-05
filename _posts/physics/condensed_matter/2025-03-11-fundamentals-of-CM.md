@@ -4,7 +4,7 @@ title: Fundamentals of Condensed Matter
 date: 2025-03-12
 last_modified_at: 2025-03-12
 category: physics
-tag: condensed, matter, material
+tag: [condensed, matter, material, fundamentals]
 ---
 
 

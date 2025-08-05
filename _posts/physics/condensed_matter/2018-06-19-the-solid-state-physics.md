@@ -1,10 +1,10 @@
 ---
 layout: post-physics
 title: "Fundamentals of Solid State Physics"
-date: 2018-06-19
+date: 2025-06-19
 last_modified_at: 2025-06-29
 category: physics 
-tag:  solid state
+tag:  [solidstate, fundamentals]
 ---
 
 **Physical System**: The Crystalline Solid <br>

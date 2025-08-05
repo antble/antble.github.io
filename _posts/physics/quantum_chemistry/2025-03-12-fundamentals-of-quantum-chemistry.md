@@ -4,7 +4,7 @@ title: "Fundamentals of Quantum Chemistry"
 date: 2023-06-22
 last_modified_at: 2025-03-12
 category: physics
-tag: physics, fundamentals
+tag: [physics, fundamentals]
 ---
 
 

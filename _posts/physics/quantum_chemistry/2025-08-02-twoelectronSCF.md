@@ -4,7 +4,7 @@ title: "Two-electron SCF Fortran Code"
 date: 2025-08-02 
 last_modified_at: 2025-08-05
 category: physics
-tag: physics, fundamentals
+tag: [physics, notes]
 ---
 # Table of Content
 - [Table of Content](#table-of-content)

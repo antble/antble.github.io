@@ -2,7 +2,9 @@
 layout: post-physics
 title: "Statistical Mechanics: Algorithm and Computations"
 date: 2021-04-11
+lsas_modified_at: 2021-04-11
 category: physics
+tags: [notes]
 ---
 
 # Chapter 1: Monte Carlo Methods 

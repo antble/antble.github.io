@@ -4,7 +4,7 @@ title: Fundamentals of Quantum Mechanics
 date: 2025-03-11
 last_modified_at: 2025-03-10
 category: physics
-tag: quantum, mechanics
+tag: [fundamentals, quantum, mechanics]
 ---
 
 

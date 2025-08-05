@@ -4,7 +4,7 @@ title: Fundamentals of Fluid Mechanics
 date: 2025-06-29
 last_modified_at: 2025-06-29
 category: physics
-tag: e.g. fortran, notes
+tag: [fundamentals]
 ---
 
 

@@ -4,7 +4,7 @@ title: Fundamentals of Electromagnetism
 date: 2025-03-11
 last_modified_at: 2025-03-15
 category: physics
-tag: electromagnetism
+tag: [electromagnetism, fundamentals]
 ---
 
 

@@ -2,8 +2,9 @@
 layout: post-physics
 title: "Introduction to Computational Chemistry"
 date: 2017-10-11
+last_modified_at: 2025-08-01
 category: physics 
-tag: quantum chemistry
+tag: [quantumchemistry, notes]
 ---
 
 <div style="text-align: justify;">

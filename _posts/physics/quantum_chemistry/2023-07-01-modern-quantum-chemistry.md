@@ -4,7 +4,7 @@ title: Notes on Modern Quantum Chemistry
 date: 2025-06-08
 last_modified_at: 2025-06-08
 category: physics
-tag: e.g. fortran, notes
+tag: [fortran, notes, QC]
 ---
 Title: *Modern Quantum Chemistry: Introduction to Advanced Electronic Structure Theory* <br>
 Author: Attila Szabo and Neil S. Ostlund (1982)
