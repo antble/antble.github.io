@@ -22,7 +22,8 @@ title: Physics
 <h2> Notes</h2>
 <p>Collection of notes about physics-related topic:</p>
 {% assign fundamentals_posts = site.categories.physics 
-  | where_exp: "post", "post.status != 'archive' and post.tags contains 'notes'"
+  | where_exp: "post", "post.status != 'archive'"
+  | where_exp: "post", "post.tags contains 'notes'"
 %}
 
 <ul class="compact-list">
