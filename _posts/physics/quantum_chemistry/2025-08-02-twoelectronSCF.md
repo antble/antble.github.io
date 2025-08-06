@@ -9,6 +9,7 @@ tag: [physics, notes]
 # Table of Content
 - [Table of Content](#table-of-content)
   - [Main Program](#main-program)
+  - [HF Calculation](#hf-calculation)
   - [Integral](#integral)
       - [Overlap Integral](#overlap-integral)
     - [Core Hamiltonian](#core-hamiltonian)
@@ -29,7 +30,21 @@ tag: [physics, notes]
     - [Error Function](#error-function)
 
 
+
+
 ## Main Program
+- code repo: [https://github.com/antble/modernquantumchemistry](https://github.com/antble/modernquantumchemistry/tree/main)
+ 
+<p style="text-align: center; margin-top: 0.5em;">two-electron SCF fortran code diagram
+</p>
+<div class="my-container">
+<img src="{{ '/assets/physics/twoeSCF_diagram.png' | relative_url }}"  
+     style="width: 95%; height: auto;"
+     >
+</div>
+
+
+## HF Calculation
 {% highlight fortran %}
 	IMPLICIT DOUBLE PRECISION(A-H, O-Z)
 	IOP = 2 
