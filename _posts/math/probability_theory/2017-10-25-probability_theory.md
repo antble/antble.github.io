@@ -4,7 +4,7 @@ title: "Notes on Probability Theory"
 date: 2017-10-25
 last_modified_at: 2025-07-30
 category: math 
-tag: probability
+tag: [probability, notes]
 ---
 # Table of Content 
 - [Table of Content](#table-of-content)

@@ -3,7 +3,7 @@ layout: post-math
 title: "Notes on Abstract Algebra"
 date: 2021-03-13
 category: math
-tag: topology
+tag: [topology, notes]
 ---
 ## Notes
 (1) Effective way to learn abstract algebra

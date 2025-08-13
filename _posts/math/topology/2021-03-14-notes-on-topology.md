@@ -3,7 +3,7 @@ layout: post-math
 title: "Notes on Topology"
 date: 2021-03-14
 category: math
-tag: topology
+tag: [topology, notes]
 ---
 
 ### Notes

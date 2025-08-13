@@ -4,7 +4,7 @@ title: Fundamentals of Mathematics
 date:  2016-01-01
 last_modified_at: 2025-06-08
 category: math
-tag: math, fundamentals
+tag: [math, fundamentals]
 ---
 
 

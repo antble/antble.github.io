@@ -4,7 +4,7 @@ title: Notes on Functional Analysis
 date: 2025-05-25
 last_modified_at: 2025-06-05
 category: math
-tag: functional, analysis
+tag: [functional, analysis, notes]
 ---
 
 **Objects**: 

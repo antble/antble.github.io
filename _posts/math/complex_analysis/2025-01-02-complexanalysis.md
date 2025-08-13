@@ -1,10 +1,10 @@
 ---
 layout: post-math
-title: Fundamentals of Complex Analysis
+title: Notes on Complex Analysis
 date: 2025-01-02
 last_modified_at: 2025-01-02
 category: math
-tag: complex analysis
+tag: [complex analysis, notes]
 ---
 
 ## Complex Numbers 

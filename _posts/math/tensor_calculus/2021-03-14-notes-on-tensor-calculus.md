@@ -4,7 +4,7 @@ title: "Notes on Tensor Calculus"
 date: 2021-04-11
 last_modified_at: 2025-03-01
 category: math
-tag: "tensor calculus"
+tag: [tensor calculus, notes]
 ---
 **Objects**: Tensors, Tensor Fields 
 
