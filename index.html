@@ -34,22 +34,54 @@ quote: home sweet home
   </ul>
 </ol>
 
-This blog is a working archive: thoughts, ideas, notes. 
-Diverse topics. The 'beton brut' aesthetic is deliberate. It is raw, unfinished, and intentionally left as a work in progress. 
+This blog is a working archive: thoughts, ideas, notes. Dates indicate the last time a post was modified.
+The 'beton brut' aesthetic is deliberate. It is raw, unfinished, and intentionally left as a work in progress. 
 <br>
 <br>
 Mainly divided into 3 main categories: <b>Physics</b>, <b>Programming</b>, and <b>Math</b>. And then of course, other stuff ... 
-<ul class="compact-list">
-  {% for post in site.categories.aboutme %}
+
+<br><br>
+<table>
+{% for post in site.categories.aboutme %}
+  <tr class="compact-list">
     {% if post.url and post.status != "archive"  %}
-    <li><b><a href="{{ post.url }}">{{ post.title }}</a></b></li>
+      <td style="padding-right: 10px; text-align: right;">
+        <i>{{post.last_modified_at| date_to_string}}  </i>
+      </td>
+      <td>
+        <b><a href="{{ post.url }}">{{ post.title }}</a></b>
+      </td>
     {% endif %}
-  {% endfor %}
-  {% for post in site.categories.others %}
+  </tr>
+{% endfor %}
+</table>
+
+<div class="table-container">
+<table>
+{% for post in site.categories.others %}
+  <tr class="compact-list">
     {% if post.url and post.status != "archive"  %}
-    <li><b><a href="{{ post.url }}">{{ post.title }}</a></b></li>
+      <td style="padding-right: 10px; text-align: right;">
+        <i>{{post.last_modified_at| date_to_string}}</i>
+      </td>
+      <td>
+        <b><a href="{{ post.url }}">{{ post.title }}</a></b>
+      </td>
     {% endif %}
-  {% endfor %}
-  <li><a href="/working"><b>Ongoing Learning</b></a></li>
-  
-</ul>
+  </tr>
+{% endfor %}
+<tr class="compact-list">
+{%- for p in site.html_pages -%}
+    {%- if p.url == '/working/' -%}
+      <td style="padding-right: 10px; text-align: right;">
+        <i>{{p.last_modified_at| date_to_string}}</i>
+      </td>
+      <td>
+        <a href="{{p.url}}"><b>{{p.title}}</b></a>
+      </td>
+    {%- endif -%}
+  {%- endfor -%}
+</tr>
+</table> 
+
+</div>
