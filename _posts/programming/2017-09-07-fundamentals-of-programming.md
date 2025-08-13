@@ -4,7 +4,7 @@ title: "Fundamentals of Programming"
 date: 2017-09-07
 last_modified_at: 2025-03-01
 category: programming
-tag: fundamentals
+tag: [fundamentals]
 ---
 
 The goal of this article is to provide a simplified framework for dealing all programming languages. In my years of studying different programming languages, alongside with mathematics, I found that they share the same structure. These transferable mental structure have speed up my understanding of any new language I encounter.

@@ -4,7 +4,7 @@ title: The Joy in Working with Legacy Code
 date: 2025-05-14
 last_modified_at: 2025-07-14
 category: programming
-tag: e.g. fortran, notes
+tag: [fortran, blog]
 ---
 ## On reading legacy codebase
 Legacy scientific code, like 1970s FORTRAN physics simulations, is a unique time capsule embodying validated scientific intuition and hardware-specific optimizations within its often complex structure, distinct from typical outdated software.

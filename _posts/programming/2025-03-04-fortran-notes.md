@@ -4,7 +4,7 @@ title: Fortran Notes
 date: 2025-03-04
 last_modified_at: 2025-03-05
 category: programming
-tag: fortran, notes
+tag: [fortran, notes]
 ---
 
 

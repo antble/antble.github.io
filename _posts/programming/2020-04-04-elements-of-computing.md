@@ -3,7 +3,7 @@ layout: post-programming
 title: "The Elements of Computing"
 date: 2020-04-04
 category: programming
-tag: computing
+tag: [computing, blog]
 ---
 
 *The Elements of computing* is one of the most comprehensive course I've taken online. The book used is *The Elements of Computing Systems: Building a Modern Computer from First Principles* which covers the fundamental elements of a computing system, starting from hardware to the operating system down to building one's programming language. 
