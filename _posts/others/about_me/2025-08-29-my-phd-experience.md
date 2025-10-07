@@ -1,6 +1,6 @@
 ---
 layout: post-others
-title: Lessons I've learned in my PhD Years
+title: Reflections on My PhD Years
 date: 2025-08-29
 last_modified_at: 2025-10-04
 category: personal_notes
@@ -22,4 +22,4 @@ Reflections on My PhD Years:
   - persistence, even when results seem unviable, until something proves you wrong.
   - the ability to take failure not personally but as a step forward toward the goal.
   - the art of productive failure.
-  - he courage to explore uncharted territory.
+  - the courage to explore uncharted territory.
