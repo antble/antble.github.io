@@ -2,7 +2,7 @@
 layout: post-others
 title: "My Research"
 date: 2025-03-04
-last_modified_at: 2025-07-17
+last_modified_at: 2025-10-04
 category: others
 tag: research
 featured_image: /assets/doctoral/
@@ -10,9 +10,16 @@ featured_image: /assets/doctoral/
 
 Though my physics research spans various fields, a consistent thread runs through it: the use of computational tools. During my bachelor's degree, I utilized DFT with ADF-GUI. For my master's, I worked with and ported a Fortran code to Python. And in my doctoral studies, I've utilized LAMMPS for molecular dynamics simulations and extended a Fortran-based code for Monte Carlo simulation.
 
+--- 
 
 ## Doctoral Degree: Parameterization of water and water/silica interactions using the Vashishta functional form
-My research centers on developing interatomic potentials, specifically for water, silica, and their interactions, using a classical potential model. My PhD work focused on refining the parameters of a reactive empirical potential, the Vashishta potential, which is widely used in silica simulations. I've  extended its application to model water at thermodynamic conditions of the Earth's crust, building upon its established success with other materials like silicond dioxide, silicon carbide and alumina. We published our work as follows: 
+<div class="my-container">
+<img src="{{ '/assets/doctoral/workplan.png' | relative_url }}"  
+     style="width: 100%; height: auto;"
+     >
+     <i>Project Workflow</i>
+</div>
+My research centers on developing interatomic potentials, specifically for water, silica, and their interactions, using a classical potential model. The figure above shows the general workflow we use for this project. My PhD work focused on refining the parameters of a reactive empirical potential, the Vashishta potential, which is widely used in silica simulations. I've  extended its application to model water at thermodynamic conditions of the Earth's crust, building upon its established success with other materials like silicond dioxide, silicon carbide and alumina. We published our work as follows: 
 
 <div class="publication">
   <div class="pub-thumbnail">
@@ -32,6 +39,11 @@ My research centers on developing interatomic potentials, specifically for water
       <b><a href="https://pubs.acs.org/doi/10.1021/acs.jctc.5c00722">Nucleation simulation using the Vashishta potential for water</a></b>: 
       Here, for the first time, the Vashishta potential for water was used to simulate nucleation using an extended energy-bias aggregation-volume-biased Monte Carlo technique.
     </p>
+    <p>Code are available:</p>
+    <ul>
+      <li>biased monte carlo code: <a href="https://github.com/antble/avbmc-vashishta-water">avbmc-vashishta-water</a></li>
+      <li>code diagram<a href="https://coggle.it/diagram/ZDo1BgAjwnrfugDE/t/vashishta"> coggle link</a> </li>
+    </ul>
   </div>
 </div>
 
@@ -59,6 +71,9 @@ My research centers on developing interatomic potentials, specifically for water
   </div>
 </div>
 
+
+---
+
 ## Master's Degree : Quantum Transport Modelling 
 During my masters, I worked on quantum transport modelling. It was an ambitious goal but it was fun, specially reading Fortran 77 code and trying to decipher the variables along with the equations on the corresponding old paper written before I was born.
 <div class="publication">
@@ -72,6 +87,8 @@ During my masters, I worked on quantum transport modelling. It was an ambitious 
     </p>
   </div>
 </div>
+
+---
 
 ## Bachelor's Degree : Water Clusters using DFT (ADF-SCM)
 <div class="publication">
