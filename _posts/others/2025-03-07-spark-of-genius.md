@@ -175,7 +175,6 @@ Knowledge is fragmenting at ever-increasing speed; understanding becomes ever mo
   - When enough data and concepts cohere, and conceptual puzzles becomes conceptual patterns or "pictures", scientists call them theories or natural laws. 
 - Knowing what you don't know, knowing the pattern of your ignorance, can be as valuable as knowing what you do know.
 - <mark> A scientific researcher must be attracted to these [blank] spots on the map of human knowledge, and if need be, be willing to give his life for filling them in. </mark>
-  - I'm attracted to unsolved problems!
 - The key is to build up, by means of predictions or even vague intuitions, a sufficient sense of **<mark>what should be present in a particular situation so that absence becomes anomalous and therefore strikingly interesting.</mark>**
 -  Determine: 
    -  when a pattern is absent because it doesn't exist, or when it is present but can't be perceived. 
@@ -201,7 +200,6 @@ Knowledge is fragmenting at ever-increasing speed; understanding becomes ever mo
 - The nature of the objects or concepts combined alters the outcome. 
 - learning to create patterns is therefore one of the keys to innovating in every discipline, and it is wise to learn this skill early on. 
   - <mark>you can do this easily in writing by taking very limited number of words and exploring all the possible ways to making sense with them. </mark> 
-    - i do this alot during my note taking 
 - invention is the process of putting together these components in a new way -- that is, devising a novel pattern from them. 
 - makinig patterns for oneself is a lot more fun than memorizing -- and a lot more valuable. 
   - Teasing apart one pattern and composing another requires real understanding of the basic elements of phenomena and processes. 
