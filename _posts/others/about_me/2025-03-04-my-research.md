@@ -56,6 +56,10 @@ My research centers on developing interatomic potentials, specifically for water
       <b>Parameterization of the interaction between silica and water</b>: 
       Here, we tuned the parameter set of the bond-order scheme to reproduce silanol structural properties, silanol concentration, and heat of immersion using a 2-stage optimization.
     </p>
+    <ul>
+      <li>building silica-water interface: <a href="https://github.com/antble/interface-builder">interface-builder</a></li>
+      <small>TTD: extend capabilities to other materials …</small>
+    </ul>
   </div>
 </div>
 
