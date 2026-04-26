@@ -18,42 +18,20 @@ title: Math
 </blockquote>
 
 
-Collection of notes about math-related topic:
+Notes on math:
 {% assign fundamentals_posts = site.categories.math
   | where_exp: "post", "post.status != 'archive'"
   | where_exp: "post", "post.tags contains 'notes'"
 %}
-<table>
-  {% for post in fundamentals_posts %}
-  <tr class="compact-list">
-    <td style="padding-right: 20px; text-align: right;">
-      <i>{{post.last_modified_at| date_to_string}}  </i>
-    </td>
-    <td>
-      <b><a href="{{ post.url }}">{{ post.title }}</a></b>
-    </td>
-  </tr>
-  {% endfor %}
-</table>
+{% include post_list.html items=fundamentals_posts %}
 
 <br><br>
-Collection of synthesis of math-related topic:
+Synthesis of math:
 {% assign fundamentals_posts = site.categories.math
   | where_exp: "post", "post.status != 'archive'"
   | where_exp: "post", "post.tags contains 'fundamentals'"
 %}
 
-<table class="my-custom-table">
-  {% for post in fundamentals_posts %}
-  <tr class="compact-list">
-    <td style="padding-right: 20px; text-align: right;">
-      <i>{{post.last_modified_at| date_to_string}}  </i>
-    </td>
-    <td>
-      <b><a href="{{ post.url }}">{{ post.title }}</a></b>
-    </td>
-  </tr>
-  {% endfor %}
-</table>
+{% include post_list.html items=fundamentals_posts %}
 
 
