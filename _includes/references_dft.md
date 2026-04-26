@@ -1,3 +1,3 @@
-1. Sottile, F., & Reining, L. (2021). Density Functional Theory [MOOC]. Coursera. https://www.coursera.org/learn/density-functional-theory
-2. Parr, Robert G. "Density functional theory of atoms and molecules." Horizons of Quantum Chemistry: Proceedings of the Third International Congress of Quantum Chemistry Held at Kyoto, Japan, October 29-November 3, 1979. Dordrecht: Springer Netherlands, 1989.
-3. Burke, K. and Wagner, L., 2014. ABC of ground-state DFT. University Lecture.
+1. Sottile, F., & Reining, L. (2021). [Density Functional Theory](https://www.coursera.org/learn/density-functional-theory). Coursera.
+2. Parr, R. G. (1989). *Density functional theory of atoms and molecules*. Springer.
+3. Burke, K., & Wagner, L. (2014). *ABC of ground-state DFT*. University lecture.

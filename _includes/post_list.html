@@ -1,0 +1,27 @@
+{% assign items = include.items %}
+{% assign date_field = include.date_field | default: "last_modified_at" %}
+{% assign date_format = include.date_format | default: "date_to_string" %}
+
+<table class="post-list">
+  {% for item in items %}
+    {% if item.url and item.status != "archive" %}
+      {% assign item_date = item[date_field] | default: item.last_modified_at | default: item.date %}
+      <tr class="compact-list">
+        <td class="essay-date">
+          {% if item_date %}
+            <i>
+              {% if date_format == "short" %}
+                {{ item_date | date: "%b %-d, %Y" }}
+              {% else %}
+                {{ item_date | date_to_string }}
+              {% endif %}
+            </i>
+          {% endif %}
+        </td>
+        <td>
+          <b><a href="{{ item.url }}">{{ item.title }}</a></b>
+        </td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>
