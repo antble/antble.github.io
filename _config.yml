@@ -12,14 +12,12 @@ highlighter: rouge
 rouge:
   style: base16.monokai
 
+theme: minima
+
 plugins:
+  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-
-theme: minima
-plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-scholar
+  - jekyll-sitemap
