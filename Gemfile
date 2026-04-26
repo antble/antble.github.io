@@ -1,10 +1,3 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.4"
-gem "minima"
-gem "jekyll-feed"
-gem "jekyll-gist"
-gem "jekyll-paginate"
-gem "jekyll-scholar"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
+gem "github-pages", "~> 232", group: :jekyll_plugins

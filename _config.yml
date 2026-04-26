@@ -1,4 +1,5 @@
 name: AVC
+title: AVC
 markdown: kramdown
 kramdown:
   input: GFM
@@ -19,5 +20,4 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-scholar
   - jekyll-sitemap

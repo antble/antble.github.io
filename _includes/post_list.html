@@ -5,7 +5,14 @@
 <table class="post-list">
   {% for item in items %}
     {% if item.url and item.status != "archive" %}
-      {% assign item_date = item[date_field] | default: item.last_modified_at | default: item.date %}
+      {% if date_field == "date" %}
+        {% assign item_date = item.date %}
+      {% else %}
+        {% assign item_date = item.last_modified_at %}
+        {% unless item_date %}
+          {% assign item_date = item.date %}
+        {% endunless %}
+      {% endif %}
       <tr class="compact-list">
         <td class="essay-date">
           {% if item_date %}
