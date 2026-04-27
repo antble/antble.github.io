@@ -10,6 +10,8 @@
 html {
   font-size: 16px;
   overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -28,6 +30,7 @@ body {
 .container {
   width: 100%;
   max-width: 800px; 
+  box-sizing: border-box;
   background: #ffffff;
   border: 1px solid var(--border-color);
   border-radius: 8px; 
@@ -102,6 +105,9 @@ body {
   margin-bottom: 2rem;
 }
 
+.category h2 {
+  display: contents;
+}
 
 .category a {
   padding: 10px 18px;
@@ -137,6 +143,8 @@ body {
 
 .post-list {
   border-collapse: collapse;
+  font-family: inherit;
+  font-size: 0.9rem;
 }
 
 .post-list td,
@@ -151,10 +159,15 @@ body {
 
 .essay-date {
   color: #666;
+  font-style: normal;
   padding-right: 1.5rem !important;
   text-align: right;
   white-space: nowrap;
   width: 7rem;
+}
+
+.essay-date i {
+  font-style: normal;
 }
 
 code {
