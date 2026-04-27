@@ -3,7 +3,7 @@ layout: post-programming
 title: "An Introduction to Deep Learning"
 date: 2017-09-12
 category: programming 
-tag: [deep learning, blog]
+tag: [deep learning, notes]
 ---
 
 
