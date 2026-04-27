@@ -29,6 +29,8 @@ For learning science (physics/chemistry/mathematics), the barrier to entry has b
   - That can be a good strategy, especially when the goal is to solve a concrete problem. 
   - At the same time, creative work still depends on gathering knowledge from diverse fields. 
   - LLMs can accelerate that process too, but they should not replace the broader habit of intellectual wandering.
+  - Go slowly enough that the structure of the thing forms in your mind.
+    - The old rule is festina lente: make haste slowly. In learning, this means moving carefully enough that intuition has time to form. If you merely scan a problem and decide too quickly that it is not fertile, you may save time, but you also lose the kind of understanding that only comes from struggling with it.
 
 Literature review has also become easier. 
   - The main risk is that LLMs can funnel attention into a narrow region of the literature [[6]](#hao2026). 
