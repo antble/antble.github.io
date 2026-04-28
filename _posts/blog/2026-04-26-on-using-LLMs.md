@@ -33,10 +33,10 @@ For learning science (physics/chemistry/mathematics), the barrier to entry has b
     - The old rule is festina lente: make haste slowly. In learning, this means moving carefully enough that intuition has time to form. If you merely scan a problem and decide too quickly that it is not fertile, you may save time, but you also lose the kind of understanding that only comes from struggling with it.
 
 Literature review has also become easier. 
-  - The main risk is that LLMs can funnel attention into a narrow region of the literature [[6]](#hao2026). 
+  - The main risk is that LLMs can funnel attention into a narrow region of the literature [[1]](#hao2026). 
   - They are good at following the center of a topic, but less reliable for finding what sits at the edges: neglected ideas, strange exceptions, and papers outside the usual citation paths.
 
-The goal of ARC-AGI is a promising step toward a more general problem solver: one capable not only of recognizing patterns, but of analyzing and generating new abstract concepts [[4]](#chollet2019), [[5]](#arcagi1).
+The goal of ARC-AGI is a promising step toward a more general problem solver: one capable not only of recognizing patterns, but of analyzing and generating new abstract concepts [[2]](#chollet2019), [[3]](#arcagi1).
 
 # References
 
