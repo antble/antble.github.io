@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: update-jekyll-metadata
+        name: Update Jekyll Metadata
+        entry: python3 _scripts/update_metadata.py
+        language: system
+        files: _posts/.*\.md$
+        pass_filenames: true
+        description: Automatically updates date and last_modified_at in post front matter.
