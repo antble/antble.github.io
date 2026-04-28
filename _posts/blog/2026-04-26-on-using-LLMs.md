@@ -2,8 +2,8 @@
 layout: post-others
 title: On Using LLMs in Research
 date: 2026-04-26
-last_modified_at: 2026-04-26
-category: ...
+last_modified_at: 2026-04-28
+category: [learning, research]
 tag: [blog]
 ---
 
@@ -19,7 +19,7 @@ For programming, LLMs are useful for several reasons.
 - They make it easier to focus on hypothesis generation and testing. 
   - When implementation becomes cheaper, one can test ideas more quickly, discard weak hypotheses earlier, and kill one's darlings without spending months trapped in debugging.
 - They point toward a new workflow for computational science:
-`hypothesis -> code -> result -> revised hypothesis -> revised experiment`
+  `hypothesis -> code -> result -> revised hypothesis -> revised experiment`
 
   - This loop can, in principle, be handled by agents. 
   - I have not fully tried that yet, partly because I still derive satisfaction from controlling the flow myself rather than watching and waiting.
