@@ -1,15 +1,9 @@
 import datetime
-import os
 import re
 import sys
 
 
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
-
-
-def date_from_filename(filepath):
-    match = re.match(r"(\d{4}-\d{2}-\d{2})", os.path.basename(filepath))
-    return match.group(1) if match else None
 
 
 def front_matter_end(lines):
@@ -39,9 +33,6 @@ def replace_or_append_field(lines, key, value):
 
 
 def update_front_matter(filepath):
-    if not os.path.exists(filepath):
-        return False
-
     with open(filepath, "r", encoding="utf-8") as handle:
         lines = handle.readlines()
 
@@ -53,22 +44,16 @@ def update_front_matter(filepath):
     content = lines[end_index:]
 
     today = datetime.date.today().strftime("%Y-%m-%d")
-    created = date_from_filename(filepath) or today
 
     changed = False
 
     for index, line in enumerate(front_matter):
-        if line.startswith("date:") and ("<YEAR>" in line or not DATE_RE.search(line)):
-            front_matter[index] = f"date: {created}\n"
-            changed = True
-
         if line.startswith("last_modified_at:") and (
             "<YEAR>" in line or not DATE_RE.search(line)
         ):
             front_matter[index] = f"last_modified_at: {today}\n"
             changed = True
 
-    changed = replace_or_append_field(front_matter, "date", created) or changed
     changed = replace_or_append_field(front_matter, "last_modified_at", today) or changed
 
     if changed:
