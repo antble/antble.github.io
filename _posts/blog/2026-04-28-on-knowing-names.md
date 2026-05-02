@@ -1,6 +1,6 @@
 ---
 layout: post-others
-title: On naming things
+title: On Naming Things
 date: 2026-04-28
 last_modified_at: 2026-05-02
 category: learning
