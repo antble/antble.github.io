@@ -2,7 +2,7 @@
 layout: post-others
 title: On naming things
 date: 2026-04-28
-last_modified_at: 2026-04-28
+last_modified_at: 2026-05-02
 category: learning
 tag: [blog]
 ---
