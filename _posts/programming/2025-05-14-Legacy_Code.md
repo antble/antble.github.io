@@ -15,7 +15,7 @@ Trying to "update" these programs is incredibly difficult because you might acci
 I have two experience on working with legacy code on Fortran: 
 - [AVBMC code](https://github.com/antble/avbmc-vashishta-water)
   - monte carlo simulation
-- [LWW code](https://github.com/antble/MSthesis) (*private*)
+- [LWW code](https://github.com/antble/lww-usc)
   - quantum transport code 
 
 ## On reading others codebase
