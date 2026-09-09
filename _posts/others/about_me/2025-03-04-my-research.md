@@ -2,13 +2,50 @@
 layout: post-others
 title: "My Research"
 date: 2025-03-04
-last_modified_at: 2025-10-04
+last_modified_at: 2026-09-09
 category: others
 tag: research
 featured_image: /assets/doctoral/
 --- 
 
 Though my physics research spans various fields, a consistent thread runs through it: the use of computational tools. During my bachelor's degree, I utilized DFT with ADF-GUI. For my master's, I worked with and ported a Fortran code to Python. And in my doctoral studies, I've utilized LAMMPS for molecular dynamics simulations and extended a Fortran-based code for Monte Carlo simulation.
+
+--- 
+
+## Postdoctoral Research: ML + MD of biopolymers
+
+I will be using machine learning to study molecular dynamics of biopolymers.
+
+<div class="publication">
+  <div class="pub-thumbnail">
+  <div class="pub-image-crop">
+    <img src="{{site.url}}/assets/postdocliu/image-NV1G.png"
+         alt="A Miscanthus-conditioned lignin system">
+  </div>
+</div>
+
+  <div class="pub-description">
+    <p>
+      <b><a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15008225/v1">Population-aware Generative Modeling of Lignin Ensemble</a></b>: 
+      We developed a generative framework that produces lignin population that satisfies a specific feedstock experimental aggregate statistics. We showed that the distribution is robust by sampling different ensemble sizes; that is, one can repeatedly obtain a consistent statistics of a lignin population from the conditioned generative prior. 
+    </p>
+    <!-- <p>Code and related resources are available here:</p> -->
+    <!-- <ul> -->
+      <!-- <li>
+        REINVENT-Lignin code:
+        <a href="https://github.com/antble">reinventlignin</a>
+        <ul>
+           <li>Code diagram:
+          <a href="https://coggle.it/">Coggle diagram</a>
+           </li>
+        </ul>
+      </li>
+      <li>
+        LigninGen code:
+      </li> -->
+    <!-- </ul> -->
+  </div>
+</div>
 
 --- 
 
@@ -41,7 +78,7 @@ My research centers on developing interatomic potentials, specifically for water
     </p>
     <p>Code are available:</p>
     <ul>
-      <li>biased monte carlo code: <a href="https://github.com/antble/avbmc-vashishta-water">avbmc-vashishta-water</a></li>
+      <li>biased MC code: <a href="https://github.com/antble/avbmc-vashishta-water">avbmc-vashishta-water</a></li>
       <li>code diagram<a href="https://coggle.it/diagram/ZDo1BgAjwnrfugDE/t/vashishta"> coggle link</a> </li>
     </ul>
   </div>
@@ -53,12 +90,14 @@ My research centers on developing interatomic potentials, specifically for water
   </div>
   <div class="pub-description">
     <p>
-      <b>Parameterization of the interaction between silica and water</b>: 
+      <b><a href="https://pubs.aip.org/aip/jcp/article/165/10/104701/3403923/Silica-water-model-using-the-Vashishta-force-field">Silica–water model using the Vashishta force field</a></b>: 
       Here, we tuned the parameter set of the bond-order scheme to reproduce silanol structural properties, silanol concentration, and heat of immersion using a 2-stage optimization.
     </p>
     <ul>
-      <li>building silica-water interface: <a href="https://github.com/antble/interface-builder">interface-builder</a></li>
-      <small>TTD: extend capabilities to other materials …</small>
+      <li> Code: <a href="">Vashishta bond order</a></li>
+      <li> Data: <a href="https://doi.org/10.5281/zenodo.19111996">Zenodo link</a></li>
+      <li> Interface builder: <a href="https://github.com/antble/interface-builder">interface-builder</a></li>
+      <!-- <small>TTD: extend capabilities to other materials …</small>  -->
     </ul>
   </div>
 </div>
@@ -69,7 +108,7 @@ My research centers on developing interatomic potentials, specifically for water
   </div>
   <div class="pub-description">
     <p>
-      <b>Dynamic Fracture Simulation in Aqueous Environment</b>: 
+      <b><a href="https://pubs.aip.org/aip/jcp/article/165/10/104701/3403923/Silica-water-model-using-the-Vashishta-force-field">Dynamic Fracture Simulation in Aqueous Environment</a></b>: 
       Here, we demonstrate and validate the water/silica Vashishta parameter set, applying mode-I loading in an NPT ensemble fracture simulation. We showed that the presence of water reduces the wet silica's peak stress and promotes a more brittle failure mode. 
     </p>
   </div>
