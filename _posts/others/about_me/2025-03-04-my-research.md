@@ -94,7 +94,7 @@ My research centers on developing interatomic potentials, specifically for water
       Here, we tuned the parameter set of the bond-order scheme to reproduce silanol structural properties, silanol concentration, and heat of immersion using a 2-stage optimization.
     </p>
     <ul>
-      <li> Code: <a href="">Vashishta bond order</a></li>
+      <li> Code: <a href="https://github.com/andeplane/vashishta_bond_order">Vashishta bond order</a></li>
       <li> Data: <a href="https://doi.org/10.5281/zenodo.19111996">Zenodo link</a></li>
       <li> Interface builder: <a href="https://github.com/antble/interface-builder">interface-builder</a></li>
       <!-- <small>TTD: extend capabilities to other materials …</small>  -->
