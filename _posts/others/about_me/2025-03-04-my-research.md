@@ -5,6 +5,7 @@ date: 2025-03-04
 last_modified_at: 2026-10-03
 category: others
 tag: research
+article_type: Research overview
 featured_image: /assets/doctoral/
 --- 
 
@@ -148,5 +149,4 @@ During my master's degree, I worked on quantum transport modelling. The project 
     </p>
   </div>
 </div>
-
 

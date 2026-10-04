@@ -1,0 +1,3 @@
+{% if page.collection == 'posts' and page.working_note != false %}
+<p class="article-note"><strong>{{ page.article_type | default: 'Working note' | escape }}</strong> — Part of my personal research notebook. Entries may be incomplete and are revised over time.</p>
+{% endif %}
